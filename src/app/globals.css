@@ -1,0 +1,295 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mySwiper{
+  background: transparent;
+  padding-bottom: 7vh;
+  position: relative !important;
+}
+.swiper-pagination {
+  display: flex;
+  justify-content: start;
+  position: absolute !important;
+  left: 75% !important;
+  bottom: 5% !important;
+  background: #FFFFFF !important;
+  width: 18% !important;
+  border-radius: 8px !important;
+}
+.swiper-pagination-bullet {
+  border-radius: 0px !important;
+  background: #FFFFFF !important;
+  width: 25% !important;
+  box-shadow: 0 !important;
+  height: 0.4rem !important;
+  margin-top: -3rem;
+  /* opacity: 80% !important; */
+}
+.swiper-pagination-bullet-active {
+  border-radius: 8px !important;
+  background: #0A8E26 !important;
+  transform: scale(130%) !important;
+  /* width: 1rem !important; */
+  z-index: 10 !important;
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
+  gap: 0 !important;
+  /* margin: 0 0.5rem !important; */
+}
+body {
+  font-family: var(--font-montserrat);
+}
+.fff{
+  background-color: #2d2d2d33;
+}
+.header-bottom{
+  border-bottom: 1px solid rgba(45, 45, 45, 0.10);
+}
+.top-border{
+  border-top: 1px solid rgba(45, 45, 45, 0.10);
+}
+.home-hero {
+  background-image: url("../assets/Images/Hero\ Section.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-hero2 {
+  background-image: url("../assets/Images/Hero\ Section\ \(2\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-hero3 {
+  background-image: url("../assets/Images/Hero\ Section\ \(3\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.what-we-offer {
+  background-image: url("../components/Homepage/assets/Automotive\ Gas\ Oil.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-hero {
+  background-image: url("../app/contact/assets/Hero\ Section.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.automotive-hero {
+  background-image: url("../app/products/assets/automotive.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.petrol-hero {
+  background-image: url("../app/products/assets/petrol.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kerosene-hero {
+  background-image: url("../app/products/assets/kerosene.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lubricants-hero {
+  background-image: url("../app/products/assets/lubricants.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.liquefied-hero {
+  background-image: url("../app/products/assets/liquefied.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.agriculture-industry {
+  background-image: url("../app/products/assets/Agriculture.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our-business {
+  background-image: url("../app//about/assets/Automotive\ Gas\ Oil.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mission {
+  background-image: url("../app//about/assets/Mission.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vision {
+  background-image: url("../app//about/assets/Visoon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-hero {
+  background-image: url("../app//about/assets/Hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.years-background {
+  background-image: url("../components/Homepage/assets/Retail\ Store.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.truck-background {
+  background-image: url("../components/Homepage/assets//Truck\ Fleet.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.storage-background {
+  background-image: url("../components/Homepage/assets/Storage\ Capacity.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.update-background {
+  background-image: url("../components/Homepage/assets/News\ uPDATE.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kerosene {
+  background-image: url("../components/Homepage/assets/Kerosene.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.petrol {
+  background-image: url("../components/Homepage/assets/Petrol.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.liquefied {
+  background-image: url("../components/Homepage/assets/Liquefied.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lubricants {
+  background-image: url("../components/Homepage/assets/Lubricants.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.instagram:hover {
+  color: #ee2a7b;
+  /* color: #0A8E26; */
+}
+
+@media screen and (max-width: 1023px){
+  .swiper-pagination {
+    display: flex;
+    justify-content: start;
+    position: absolute !important;
+    left: 78% !important;
+    bottom: 6% !important;
+    background: #FFFFFF !important;
+    width: 15% !important;
+    border-radius: 8px !important;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 0px !important;
+    background: #FFFFFF !important;
+    width: 25% !important;
+    box-shadow: 0 !important;
+    height: 0.5rem !important;
+    margin-top: -3rem;
+    /* opacity: 80% !important; */
+  }
+  .swiper-pagination-bullet-active {
+    border-radius: 8px !important;
+    background: #0A8E26 !important;
+    transform: scale(130%) !important;
+    /* width: 1rem !important; */
+    z-index: 10 !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    gap: 0 !important;
+    /* margin: 0 0.5rem !important; */
+  }
+}
+
+@media screen and (max-width: 639px){
+  .swiper-pagination {
+    display: flex;
+    justify-content: start;
+    position: absolute !important;
+    left: 35% !important;
+    bottom: 6% !important;
+    background: #FFFFFF !important;
+    width: 60% !important;
+    border-radius: 8px !important;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 0px !important;
+    background: #FFFFFF !important;
+    width: 25% !important;
+    box-shadow: 0 !important;
+    height: 0.45rem !important;
+    margin-top: -3rem;
+  }
+  .swiper-pagination-bullet-active {
+    border-radius: 8px !important;
+    background: #0A8E26 !important;
+    transform: scale(130%) !important;
+    /* width: 1rem !important; */
+    z-index: 10 !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    gap: 0 !important;
+    /* margin: 0 0.5rem !important; */
+  }
+}
+
+@media screen and (max-width: 419px){
+  .swiper-pagination {
+    display: flex;
+    justify-content: start;
+    position: absolute !important;
+    left: 40% !important;
+    bottom: 6% !important;
+    background: #FFFFFF !important;
+    width: 55% !important;
+    border-radius: 8px !important;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 0px !important;
+    background: #FFFFFF !important;
+    width: 25% !important;
+    box-shadow: 0 !important;
+    height: 0.45rem !important;
+    margin-top: -3rem;
+  }
+  .swiper-pagination-bullet-active {
+    border-radius: 8px !important;
+    background: #0A8E26 !important;
+    transform: scale(130%) !important;
+    /* width: 1rem !important; */
+    z-index: 10 !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    gap: 0 !important;
+    /* margin: 0 0.5rem !important; */
+  }
+}

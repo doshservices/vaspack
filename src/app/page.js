@@ -1,0 +1,22 @@
+import React from 'react'
+import Header from "@/components/Header/Header";
+import Hero from '@/components/Homepage/Hero';
+import Footer from '@/components/Footer/Footer';
+import InNumbers from '@/components/Homepage/InNumbers';
+import WhatWeOffer from '@/components/Homepage/WhatWeOffer';
+import LatestUpdates from '@/components/Homepage/LatestUpdates';
+
+
+
+export default function Home() {
+  return (
+    <body className=" ">
+      <Header />
+      <Hero />
+      <InNumbers />
+      <WhatWeOffer />
+      <LatestUpdates />
+      <Footer />
+    </body>
+  )
+}
