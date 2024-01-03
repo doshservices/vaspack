@@ -2,14 +2,17 @@ import React from "react";
 import Button from "../Button/Button";
 import GreenLine from "../GreenLine/GreenLine";
 
-
-
 export default function InNumbers() {
   return (
     <div className=" flex flex-col sm:flex-row justify-between px-[7%] py-8">
       <section className=" flex flex-col justify-between  text-center sm:text-left text-OtherBlack">
         <div>
-          <GreenLine text="VASPACK IN NUMBERS" />
+          <div className="w-full sm:w-[23%] lg:w-[100%]">
+            <hr className=" w-[30%] sm:w-[65%] mx-auto sm:mx-0 border-solid border-[2px] border-OtherGreen " />
+            <h2 className=" uppercase text-[0.9rem] sm:text-[0.7rem] md:text-[0.8rem] lg:text-[0.9rem] mt-2 md:mt-3 font-medium tracking-[0.199px] leading-[187%] ">
+              VASPACK IN NUMBERS
+            </h2>
+          </div>
           <p className=" mt-4 text-[1.2rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.3rem] xl:text-[1.5rem] font-medium tracking-[0.199px] leading-[123%] ">
             An Integrated Energy Company
           </p>
@@ -25,7 +28,9 @@ export default function InNumbers() {
           <p className=" font-bold ">Years of Experience</p>
           <div className=" h-[22%] sm:h-[27.5%] flex flex-col justify-between ">
             <hr className=" mb-6 border-[1px] border-solid border-OtherWhite " />
-            <strong className="font-medium  text-[1.1rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.3rem] justify-self-end ">Over 20 years</strong>
+            <strong className="font-medium  text-[1.1rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.3rem] justify-self-end ">
+              Over 20 years
+            </strong>
           </div>
         </div>
 
@@ -34,8 +39,12 @@ export default function InNumbers() {
           <div className=" h-[22%] sm:h-[27.5%] flex flex-col justify-between ">
             <hr className="  border-[1px] border-solid border-OtherWhite " />
             <div className="justify-self-end">
-            <strong className="font-medium  text-[1.1rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.3rem] justify-self-end ">~6000 Trucks</strong>
-            <p className="font-medium  text-[0.55rem] md:text-[0.65rem] lg:text-[0.8rem] leading-none ">(Including specialized trucks)</p>
+              <strong className="font-medium  text-[1.1rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.3rem] justify-self-end ">
+                ~6000 Trucks
+              </strong>
+              <p className="font-medium  text-[0.55rem] md:text-[0.65rem] lg:text-[0.8rem] leading-none ">
+                (Including specialized trucks)
+              </p>
             </div>
           </div>
         </div>
@@ -44,13 +53,15 @@ export default function InNumbers() {
           <p className="  font-bold ">Storage Capacity</p>
           <div className=" h-[20%2 sm:h-[27.5%] flex flex-col justify-between ">
             <hr className=" border-[1px] border-solid border-OtherWhite " />
-            <strong className="font-medium  text-[1.1rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.3rem] justify-self-end ">3048 km3</strong>
+            <strong className="font-medium  text-[1.1rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.3rem] justify-self-end ">
+              3048 km3
+            </strong>
           </div>
         </div>
       </section>
       <div className="mt-5 text-center block sm:hidden ">
-          <Button text="About Us" />
-        </div>
+        <Button text="About Us" />
+      </div>
     </div>
   );
 }

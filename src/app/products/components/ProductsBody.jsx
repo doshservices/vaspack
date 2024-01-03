@@ -41,21 +41,21 @@ export default function ProductsBody() {
             <h3 className=" text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
               ~60
             </h3>
-            <p>Nationwide Depot</p>
+            <p className=" text-center">Nationwide Depot</p>
           </div>
           <div className=" border-OtherBlack border-r-[3px] border-solid  " />
           <div>
             <h3 className=" text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
               ~100+
             </h3>
-            <p>Tankers</p>
+            <p className=" text-center">Tankers</p>
           </div>
           <div className=" border-OtherBlack border-r-[3px] border-solid " />
           <div>
             <h3 className=" text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
               ~100+
             </h3>
-            <p>Retail outlet</p>
+            <p className=" text-center">Retail outlet</p>
           </div>
         </div>
       </section>

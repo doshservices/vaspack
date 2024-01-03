@@ -66,7 +66,7 @@ export default function HeaderDesktop({ href }) {
 
         <div className=" flex w-[40%] md:w-[35%] lg:w-[30%] xl:w-[25%] items-center justify-between gap-6 ">
           <div className="flex gap-1 items-center w-full  ">
-            <p>Career</p>
+            <p>Careers</p>
             <div className="w-[20%] ">
               <Image alt="icon" className="w-full " src={careers} />
             </div>
