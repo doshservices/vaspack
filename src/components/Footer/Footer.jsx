@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Logo/vasplogo 1.png";
+import logo from "../../assets/Logo/vasplogo1.svg";
 import call from "./assets/call.png";
 import sms from "./assets/sms.png";
 import location from "./assets/location.png";
@@ -7,7 +7,7 @@ import youtube from "./assets/youtube.png";
 import facebook from "./assets/facebook.png";
 import twitter from "./assets/twitter.png";
 import instagram from "./assets/instagram.png";
-import watermark from "./assets/Footer watermark.png";
+import watermark from "./assets/Footerwatermark.png";
 import Image from "next/image";
 import Link from "next/link";
 import { FaXTwitter, FaLocationDot  } from "react-icons/fa6";
