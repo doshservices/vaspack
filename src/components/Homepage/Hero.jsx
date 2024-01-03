@@ -60,7 +60,7 @@ export default function Hero() {
           <div className="">
             <SwiperSlide>
               <div
-                className={`${background} mx-[0%] sm:mx-[5%] text-NormalWhite h-[80vh] sm:h-[60vh] ssm:h-[70vh] md:h-[55vh] lg:h-[70vh] xl:h-[80vh] flex items-center sm:items-end pb-[2vh] px-[3%] sm:px-[1.5%] `}
+                className={`${background} mx-[0%] sm:mx-[5%] text-NormalWhite h-[30rem] sm:h-[60vh] ssm:h-[70vh] md:h-[55vh] lg:h-[70vh] xl:h-[80vh] flex items-center sm:items-end pb-[2vh] px-[3%] sm:px-[1.5%] `}
               >
                 <section className=" w-full sm:w-[60%] lg:w-[62%] xl:w-[55%]">
                   <h1 className="  text-[1.2rem] ssm:text-[1.4rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem] xl:text-[1.7rem] leading-[171%] font-semibold sm:font-bold ">
