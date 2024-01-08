@@ -33,7 +33,7 @@
 }
 .swiper-pagination-bullet-active {
   border-radius: 8px !important;
-  background: #0A8E26 !important;
+  background: #8BDA27 !important;
   transform: scale(130%) !important;
   /* width: 1rem !important; */
   z-index: 10 !important;
@@ -55,31 +55,37 @@ body {
   border-top: 1px solid rgba(45, 45, 45, 0.10);
 }
 .home-hero {
-  background-image: url("../assets/Images/Hero\ Section.png");
+  background-image: url("../components/Homepage/assets/Home1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home-hero2 {
-  background-image: url("../assets/Images/Hero\ Section\ \(2\).png");
+  background-image: url("../components/Homepage/assets/Home2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home-hero3 {
-  background-image: url("../assets/Images/Hero\ Section\ \(3\).png");
+  background-image: url("../components/Homepage/assets/Home3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .what-we-offer {
-  background-image: url("../components/Homepage/assets/Automotive\ Gas\ Oil.png");
+  background-image: url("../components/Homepage/assets/Home4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .contact-hero {
   background-image: url("../app/contact/assets/Hero\ Section.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news-hero {
+  background-image: url("../app/news//assets/news.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,8 +150,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.years-background {
-  background-image: url("../components/Homepage/assets/Retail\ Store.png");
+.news1-background {
+  background-image: url("../app/news/assets/news1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news2-background {
+  background-image: url("../app/news/assets/news2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news3-background {
+  background-image: url("../app/news/assets/news3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,8 +180,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.update-background {
+.update1 {
+  background-image: url("../app/news/assets/update1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.update2 {
   background-image: url("../components/Homepage/assets/News\ uPDATE.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.update3 {
+  background-image: url("../app/news/assets/update3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

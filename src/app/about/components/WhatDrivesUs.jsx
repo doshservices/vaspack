@@ -3,7 +3,7 @@ import React from "react";
 
 export default function WhatDrivesUs() {
   return (
-    <div className=" px-[7%] mt-12 lg:mt-16 xl:mt-20 mb-10 lg:mb-12 ">
+    <div className=" px-[5%] mt-12 lg:mt-16 xl:mt-20 mb-10 lg:mb-12 ">
       <section>
         <div className=" ">
           <GreenLine text=" WHAT DRIVES US" />

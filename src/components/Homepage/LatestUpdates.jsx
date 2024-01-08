@@ -22,7 +22,7 @@ const LatestUpdatesData = [
 
 export default function LatestUpdates() {
   return (
-    <div className='mt-8 ssm:mt-10 sm:mt-12 md:mt-16 lg:mt-20 px-[5%] lg:px-[7%] mb-12 sm:mb-8 lg:mb-12 '>
+    <div className='mt-8 ssm:mt-10 sm:mt-12 md:mt-16 lg:mt-20 px-[5%] mb-12 sm:mb-8 lg:mb-12 '>
      <section className="  text-center sm:text-left">
         <GreenLine text="OUR LASTEST UPDATES" />
       </section>

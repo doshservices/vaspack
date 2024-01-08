@@ -11,7 +11,7 @@ import VaspackInNumbers from '@/components/Homepage/VaspackInNumbers';
 
 export default function Home() {
   return (
-    <body className=" ">
+    <body suppressHydrationWarning className=" ">
       <Header />
       <Hero />
       <VaspackInNumbers />
