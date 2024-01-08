@@ -59,7 +59,7 @@ export default function WhatWeOffer() {
     },
   ];
   return (
-    <div className="mt-4 ssm:mt-7 sm:mt-12 md:mt-16 lg:mt-20 px-[5%] ">
+    <div className="my-4 ssm:my-7 sm:my-12 md:my-16 lg:my-20 px-[5%] ">
       <section className=" text-center sm:text-left">
         <GreenLine text="WHAT WE OFFER" />
       </section>

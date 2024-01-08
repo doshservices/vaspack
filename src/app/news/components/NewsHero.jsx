@@ -42,7 +42,7 @@ export default function NewsHero() {
              <hr className=" border-[1px] border-solid border-OtherWhite " />
              <div className=' flex items-center justify-between mt-2'>
                 <p className=" text-[0.75rem] ssm:text-[0.8rem] sm:text-[0.6rem] md:text-[0.65rem] lg:text-[0.8rem]  xl:text-[0.9rem] font-medium leading-[162%] ">{energies.category} </p>
-                <button className=' text-[0.75rem] ssm:text-[0.8rem] sm:text-[0.6rem] md:text-[0.6rem] lg:text-[0.75rem] xl:text-[0.8rem] leading-[200%] text-NormalWhite border-NormalWhite hover:border-Primary hover:bg-Secondary hover:text-NormalWhite font-medium border-solid border-[1.5px] rounded-[4px] px-2 lg:px-4 py-0 '>Read News </button>
+                <button className=' text-[0.75rem] ssm:text-[0.8rem] sm:text-[0.6rem] md:text-[0.6rem] lg:text-[0.75rem] xl:text-[0.8rem] leading-[200%] text-NormalWhite border-NormalWhite hover:border-Primary hover:bg-Secondary hover:text-NormalWhite font-medium border-solid border-[1.5px] rounded-[4px] px-2 lg:px-4 py-1 '>Read News </button>
              </div>
            </div>
          </div>

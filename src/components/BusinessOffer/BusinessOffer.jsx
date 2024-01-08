@@ -4,7 +4,7 @@ import TalkToUs from '../Button/TalkToUs'
 export default function BusinessOffer({title, text, background, ButtonText, link }) {
   return (
     <section className={`${background} mt-5 h-[70vh] sm:h-[70vh] py-4 sm:py-7 px-[4%]  sm:px-[2%] text-OtherWhite flex gap-14 sm:gap-0 flex-col sm:flex-row justify-between`}>
-        <div className=" w-full sm:w-[65%] lg:w-[55%] flex flex-col justify-between ">
+        <div className=" w-full sm:w-[65%] lg:w-[55%] flex flex-col justify-end  ">
           <div>
             <h2 className=" text-[1.1rem] sm:text-[1.3rem] lg:text-[1.4rem] font-semibold leading-[145%] ">{title} </h2>
             <p className="mt-3 lg:mt-5 text-[0.8rem] text-justify sm:text-left lg:text-[0.9rem] font-medium leading-[214%] ">
@@ -15,17 +15,17 @@ export default function BusinessOffer({title, text, background, ButtonText, link
           <div className=" flex justify-between sm:justify-start gap-0 sm:gap-4 md:gap-6 lg:gap-8 pt-12 sm:pt-20  md:pt-28 lg:pt-32 text-[0.6rem] ssm:text-[0.7rem] lg:text-[0.8rem] font-semibold leading-[138%] ">
             <div>
                 <h3 className=" text-[1.1rem] ssm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] font-semibold leading-[114%] ">~60</h3>
-                <p>Nationwide Depot</p>
+                <p className=' text-center'>Nationwide Depot</p>
             </div>
             <div className=" border-NormalWhite border-r-[3px] border-solid "/>
             <div>
                 <h3 className=" text-[1.1rem] ssm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] font-semibold leading-[114%] ">~100+</h3>
-                <p>Tankers</p>
+                <p className=' text-center'>Tankers</p>
             </div>
             <div className=" border-NormalWhite border-r-[3px] border-solid "/>
             <div>
                 <h3 className=" text-[1.1rem] ssm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] font-semibold leading-[114%] ">~100+</h3>
-                <p>Retail outlet</p>
+                <p className=' text-center'>Retail outlet</p>
             </div>
           </div>
         </div>
