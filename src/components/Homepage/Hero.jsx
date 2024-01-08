@@ -107,9 +107,8 @@ export default function Hero() {
               height="34"
               viewBox="0 0 34 34"
               fill="none"
-              className=" w-full"
             >
-              <circle cx="17" cy="17" r="17" fill="#0A8E26" />
+              <circle cx="17" cy="17" r="17" fill="#8BDA27" />
               <path
                 d="M20.4 17L14.4 23L13 21.6L17.6 17L13 12.4L14.4 11L20.4 17Z"
                 fill="#2D2D2D"
