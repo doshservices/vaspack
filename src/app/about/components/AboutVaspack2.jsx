@@ -10,7 +10,7 @@ import AnimatedCounter from "@/components/AnimatedCounter/AnimatedCounter";
 
 export default function AboutVaspack2() {
   return (
-    <div className=" bg-[rgb(10,142,38)] mx-[5%] px-[5%] sm:px-[2%] pt-10 my-14 text-OtherWhite ">
+    <div className=" bg-[rgb(10,142,38)] mx-[5%] px-[5%] sm:px-[2%] py-7 mt-8 lg:mt-12 xl:mt-14 text-OtherWhite ">
       <section>
         <div className="w-full sm:w-[30%] md:w-[35%] lg:w-[30%]">
           {/* <hr className=" w-[30%] sm:w-[15%] mx-auto sm:mx-0 border-solid border-[2px] border-OtherWhite " />
@@ -29,7 +29,7 @@ export default function AboutVaspack2() {
         </p>
       </section>
 
-      <div className="flex flex-col sm:flex-row justify-between mt-4  pt-3 pb-10 ">
+      <div className="flex flex-col sm:flex-row justify-between mt-4  pt-3  ">
         <section className=" flex flex-col sm:flex-row justify-between  text-[0.9rem] sm:text-[0.8rem] md:text-[0.9rem] lg:text-[1.1rem] w-[100%] border-solid border-[1px] border-OtherWhite ">
           <div className=" flex py-7  border-solid border-r-[1px] border-OtherWhite w-full sm:w-[33.3%] flex-col gap-4 items-center">
             <div>

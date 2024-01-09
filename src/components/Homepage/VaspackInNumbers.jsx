@@ -10,7 +10,7 @@ import AnimatedCounter from "../AnimatedCounter/AnimatedCounter";
 
 export default function VaspackInNumbers() {
   return (
-    <div className=" bg-[#0A8E26] flex flex-col sm:flex-row justify-between mx-[5%] text-OtherWhite px-[5%] sm:px-[2%] md:px-[3%] py-6 md:py-8 lg:py-10 my-8 lg:my-12 xl:my-14">
+    <div className=" bg-[#0A8E26] flex flex-col sm:flex-row justify-between mx-[5%] text-OtherWhite px-[5%] sm:px-[2%] md:px-[3%] py-6 md:py-8 lg:py-7 my-8 lg:my-12 xl:my-14">
       <section className=" sm:w-[30%] w-[100%] xl:w-[25%] flex flex-col justify-between  text-center sm:text-left ">
         <div className=" ">
           <div className="">
@@ -19,7 +19,7 @@ export default function VaspackInNumbers() {
               VASPACK IN NUMBERS
             </h2>
           </div>
-          <p className=" text-center sm:text-justify mt-2 xl:mt-4 text-[0.8rem] md:text-[0.8rem] sm:text-[0.8rem]  xl:text-[0.9rem] font-normal sm:font-medium tracking-[0.199px] leading-[150%] lg:leading-[180%] xl:leading-[228%] ">
+          <p className=" text-center sm:text-justify mt-2 xl:mt-2 text-[0.8rem] md:text-[0.8rem] sm:text-[0.8rem]  xl:text-[0.9rem] font-normal sm:font-medium tracking-[0.199px] leading-[150%] lg:leading-[180%] xl:leading-[180%] ">
             A quick look into the Metrics Behind Vaspack Energy Limited's
             Growth, Innovation, and Contribution to the Oil & Gas Sector.
           </p>
@@ -47,7 +47,7 @@ export default function VaspackInNumbers() {
           </h3>
           <p className=" font-medium ">Years of Experience</p>
         </div>
-        <div className=" flex w-full sm:w-[33.3%] py-7 flex-col gap-4 items-center border-solid border-y-[1px]  bg-OtherWhite  sm:border-x-[1px]  ">
+        <div className=" flex w-full sm:w-[33.3%] py-7 flex-col gap-4 items-center border-solid border-y-[1px]  border-OtherWhite  sm:border-x-[1px]  ">
           <div>
             <Image src={truck} className=" w-full" alt="Experience Icon" />
           </div>

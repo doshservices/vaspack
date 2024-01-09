@@ -5,7 +5,7 @@ import React from "react";
 
 export default function OurBusiness() {
   return (
-    <div className=" px-[5%] mt-12 lg:mt-16 xl:mt-20 ">
+    <div className=" px-[5%] mt-8 lg:mt-12 xl:mt-14 ">
       <section>
         <div className=" ">
           <GreenLine text=" OUR BUSINESS" />

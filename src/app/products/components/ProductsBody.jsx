@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import IndustriesCard from "./IndustriesCard";
 import { PiPlusBold, PiMinusBold } from "react-icons/pi";
 import GreenLine from "@/components/GreenLine/GreenLine";
+import AnimatedCounter from "@/components/AnimatedCounter/AnimatedCounter";
 
 export default function ProductsBody() {
   const [activeTab, setActiveTab] = useState("Agriculture"); // Set the default active tab
@@ -20,12 +21,12 @@ export default function ProductsBody() {
   };
 
   return (
-    <div className="mt-7 px-[5%] lg:px-[7%] mb-12 ">
+    <div className="mt-6 sm:mt-7 px-[5%] mb-12 ">
       <section>
         <section>
           <div className=" ">
            
-            <GreenLine text="Vaspack Automotive Gas Oil - Diesel" />
+            <GreenLine text="Automotive Gas Oil - Diesel" />
           </div>
           <p className=" text-[0.9rem] mt-2 sm:mt-2 font-medium tracking-[0.14px] leading-[214%] text-justify ">
             Vaspack Energy Limited is an indigenous downstream company in the
@@ -38,22 +39,22 @@ export default function ProductsBody() {
 
         <div className=" flex justify-between pt-6 lg:pt-8 text-OtherBlack text-[0.7rem] ssm:text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.3rem] font-semibold leading-[145%] ">
           <div>
-            <h3 className=" text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              ~60
+            <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
+              ~<span><AnimatedCounter start={0} end={60} duration={3} /></span>
             </h3>
             <p className=" text-center">Nationwide Depot</p>
           </div>
           <div className=" border-OtherBlack border-r-[3px] border-solid  " />
           <div>
-            <h3 className=" text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              ~100+
+            <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
+              ~<span><AnimatedCounter start={0} end={100} duration={5} /></span>+
             </h3>
             <p className=" text-center">Tankers</p>
           </div>
           <div className=" border-OtherBlack border-r-[3px] border-solid " />
           <div>
-            <h3 className=" text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              ~100+
+            <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
+              ~<span><AnimatedCounter start={0} end={100} duration={5} /></span>+
             </h3>
             <p className=" text-center">Retail outlet</p>
           </div>
