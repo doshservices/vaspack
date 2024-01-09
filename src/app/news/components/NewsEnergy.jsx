@@ -40,7 +40,7 @@ export default function NewsEnergy() {
               </p>
             </div>
             <div
-              className={`${update.background} uppercase mb-5 sm:mb-3 xl:mb-5  px-[5%] pt-32 sm:pt-16 md:pt-20 pb-3 lg:pb-5 text-OtherWhite leading-[175%] text-[0.9rem] ssm:text-base sm:text-[0.6rem] md:text-[0.7rem] lg:text-[0.9rem] xl:text-base font-semibold `}
+              className={`${update.background} uppercase mb-5 sm:mb-3 xl:mb-5  px-[5%] flex items-end h-[10rem] sm:h-[11rem] lg:h-[12rem] xl:h-[13rem] pb-3 lg:pb-5 text-OtherWhite leading-[175%] text-[0.9rem] ssm:text-base sm:text-[0.6rem] md:text-[0.7rem] lg:text-[0.9rem] xl:text-base font-semibold `}
             >
               <p className=" w-[80%] ssm:w-[70%] sm:w-full lg:w-[90%] xl:w-[70%]">
                 {update.text}

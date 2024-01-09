@@ -27,6 +27,7 @@ export default function WhatWeOffer() {
       background: "what-we-offer",
       title: "Automotive Gas Oil - Diesel",
       cardTitle: "Automotive Gas Oil - Diesel ",
+      link: "products",
       cardText: "Automotive Gas oil, also known as diesel, is generated from crude distillation process and is predominantly used to efficiently power internal combustion diesel engines and power generation. Our diesel conforms to the specifications from the Department of Petroleum Resources (DPR). "
     },
     {
@@ -34,6 +35,7 @@ export default function WhatWeOffer() {
       background: "petrol",
       title: "Premium Motor Spirits - Petrol",
       cardTitle: "Premium Motor Spirits - Petrol ",
+      link: "products/petrol",
       cardText: "Popularly known as Gasoline or Petrol, is primarily used as fuel in internal combustion engines. Vaspack Energy partners with retail outlets spread across Nigeria. "
     },
     {
@@ -41,6 +43,7 @@ export default function WhatWeOffer() {
       background: "kerosene",
       title: "Kerosene",
       cardTitle: "Kerosene ",
+      link: "products/kerosene",
       cardText: "Kerosene, also known as paraffin, lamp oil, and coal oil (an obsolete term), is a combustible hydrocarbon liquid which is derived from petroleum. It is widely used as a fuel in households. "
     },
     {
@@ -48,6 +51,7 @@ export default function WhatWeOffer() {
       background: "liquefied",
       title: "Liquefied Petroleum Gas",
       cardTitle: "Liquefied Petroleum Gas ",
+      link: "products/liquefied",
       cardText: "Liquefied petroleum gas (LPG or LP gas), is a flammable mixture of hydrocarbon gases used as fuel in heating appliances, cooking equipment, and vehicles. We supply to your doorstep at your convenience and to all businesses that require our service "
     },
     {
@@ -55,6 +59,7 @@ export default function WhatWeOffer() {
       background: "lubricants",
       title: "Lubricant",
       cardTitle: "Lubricant ",
+      link: "products/lubricants",
       cardText: "Our premium lubricants, meticulously crafted through advanced refining processes, are tailored to meet rigorous industry standards and guarantee optimal protection for your machinery. Trust in our quality assurance, as our products comply with the highest specifications. "
     },
   ];
@@ -189,7 +194,7 @@ export default function WhatWeOffer() {
             modules={[Autoplay, EffectFade, Pagination, Navigation]}
             className="mySwiper"
           >
-            {OfferMap.map(({ background, title, cardText, cardTitle, key }) => (
+            {OfferMap.map(({ background, title, cardText, cardTitle, key, link }) => (
               <div key={key}>
                 <SwiperSlide>
                   <div className=" flex justify-between text-[0.9rem] sm:text-base font-medium mt-8 ">
@@ -202,6 +207,7 @@ export default function WhatWeOffer() {
                     text={cardText}
                     background={background}
                     ButtonText="Explore More"
+                    link={`/${link}`}
                   />
                 </SwiperSlide>
               </div>
