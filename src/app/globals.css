@@ -330,7 +330,7 @@ body {
     /* margin: 0 0.5rem !important; */
   }
   .home-hero {
-    background-image: url("../components/Homepage/assets/Home1.png");
+    background-image: url("../components/Homepage/assets/Home1sss.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -354,37 +354,37 @@ body {
     background-size: cover;
   }
   .automotive-hero {
-  background-image: url("../app/products/assets/automotive.png");
+  background-image: url("../app/products/assets/automotivesss.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .petrol-hero {
-  background-image: url("../app/products/assets/petrol.png");
+  background-image: url("../app/products/assets/Petrolsss.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .kerosene-hero {
-  background-image: url("../app/products/assets/kerosene.png");
+  background-image: url("../app/products/assets/Kerosenesss.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .lubricants-hero {
-  background-image: url("../app/products/assets/lubricants.png");
+  background-image: url("../app/products/assets/lubricantssss.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .liquefied-hero {
-  background-image: url("../app/products/assets/liquefied.png");
+  background-image: url("../app/products/assets/Liquefiedsss.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .about-hero {
-  background-image: url("../app//about/assets/Hero.png");
+  background-image: url("../app//about/assets/Aboutsss.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -396,7 +396,7 @@ body {
   background-size: cover;
 }
 .news-hero {
-  background-image: url("../app/news//assets/news.png");
+  background-image: url("../app/news//assets/newsss.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
