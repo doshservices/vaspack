@@ -24,7 +24,7 @@ const NewsEnergyData = [
 
 export default function NewsEnergy() {
   return (
-    <div className=" px-[5%] lg:px-[7%] pt-6 sm:pt-40 md:pt-48 lg:pt-52 xl:pt-64 mb-6 xl:mb-7 ">
+    <div className=" px-[5%]  pt-6 sm:pt-40 md:pt-48 lg:pt-52 xl:pt-64 mb-6 xl:mb-7 ">
       <section className=" flex flex-col sm:flex-row  justify-between">
         {NewsEnergyData.map((update) => (
           <div

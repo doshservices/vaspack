@@ -33,7 +33,7 @@ export default function NewsHero() {
         </h1>
       </section>
 
-      <section className='flex gap-6 sm:gap-0 flex-col sm:flex-row pt-4 sm:pt-0 relative sm:absolute top-[85%] justify-between  px-[5%] lg:px-[10%] text-NormalWhite '>
+      <section className='flex gap-6 sm:gap-0 flex-col sm:flex-row pt-4 sm:pt-0 relative sm:absolute top-[85%] justify-between  text-NormalWhite '>
         {Energy.map((energies) => (
            <div className={`${energies.background} flex flex-col justify-between  h-[15rem] sm:h-[12rem] md:h-[15rem] lg:h-[17rem] xl:h-[20rem] w-full sm:w-[32%] px-[5%] sm:px-[2%] py-4 `} key={energies.key}>
            <p className=" text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.7rem] md:text-[0.8rem] lg:text-[0.9rem] xl:text-base font-bold ">{energies.text}</p>
