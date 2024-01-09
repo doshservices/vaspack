@@ -134,6 +134,36 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.logistics-industry {
+  background-image: url("../app/products/assets/Logistics.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.commercial-industry {
+  background-image: url("../app/products/assets/Commercial.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.small-business-industry {
+  background-image: url("../app/products/assets/Business.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.industrial-industry {
+  background-image: url("../app/products/assets/Industrial.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.residential-industry {
+  background-image: url("../app/products/assets/Residential.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .our-business {
   background-image: url("../app//about/assets/Automotive\ Gas\ Oil.png");
   background-position: center;

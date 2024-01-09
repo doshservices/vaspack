@@ -15,7 +15,7 @@ export default function ProductsHero({ title, text, background }) {
       </p>
     </section>
     <div className=' flex justify-center sm:justify-start'>
-    <TalkToUs text="Talk To Us" link='/contact' />
+    <TalkToUs text="Contact Us" link='/contact' />
     </div>
   </div>
   )

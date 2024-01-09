@@ -84,7 +84,7 @@ export default function ProductsBody() {
             >
               <h2 className=" ">Agriculture</h2>
               <hr
-                className={` mt-3 border-solid border-[2px] ${
+                className={` mt-1 border-solid border-[1.5px] ${
                   activeTab === "Agriculture"
                     ? "border-OtherGreen"
                     : "border-[#2d2d2d33]"
@@ -98,7 +98,7 @@ export default function ProductsBody() {
             >
               <h2 className=" ">Industrial</h2>
               <hr
-                className={` mt-3 border-solid border-[2px] ${
+                className={` mt-1 border-solid border-[1.5px] ${
                   activeTab === "Industrial"
                     ? "border-OtherGreen"
                     : "border-[#2d2d2d33]"
@@ -112,7 +112,7 @@ export default function ProductsBody() {
             >
               <h2 className=" ">Residential</h2>
               <hr
-                className={` mt-3 border-solid border-[2px] ${
+                className={` mt-1 border-solid border-[1.5px] ${
                   activeTab === "Residential"
                     ? "border-OtherGreen"
                     : "border-[#2d2d2d33]"
@@ -125,7 +125,7 @@ export default function ProductsBody() {
             >
               <h2 className=" ">Small Business</h2>
               <hr
-                className={` mt-3 border-solid border-[2px] ${
+                className={` mt-1 border-solid border-[1.5px] ${
                   activeTab === "Small-Business"
                     ? "border-OtherGreen"
                     : "border-[#2d2d2d33]"
@@ -138,7 +138,7 @@ export default function ProductsBody() {
             >
               <h2 className=" ">Commercial</h2>
               <hr
-                className={` mt-3 border-solid border-[2px] ${
+                className={` mt-1 border-solid border-[1.5px] ${
                   activeTab === "Commercial"
                     ? "border-OtherGreen"
                     : "border-[#2d2d2d33]"
@@ -151,7 +151,7 @@ export default function ProductsBody() {
             >
               <h2 className=" ">Logistics</h2>
               <hr
-                className={` mt-3 border-solid border-[2px] ${
+                className={` mt-1 border-solid border-[1.5px] ${
                   activeTab === "Logistics"
                     ? "border-OtherGreen"
                     : "border-[#2d2d2d33]"
@@ -178,7 +178,7 @@ export default function ProductsBody() {
                 text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                background="mission"
+                background="industrial-industry"
               />
             </div>
           )}
@@ -189,7 +189,7 @@ export default function ProductsBody() {
                 text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                background="vision"
+                background="residential-industry"
               />
             </div>
           )}
@@ -200,7 +200,7 @@ export default function ProductsBody() {
                 text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                background="years-background"
+                background="small-business-industry"
               />
             </div>
           )}
@@ -211,7 +211,7 @@ export default function ProductsBody() {
                 text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                background="truck-background"
+                background="commercial-industry"
               />
             </div>
           )}
@@ -222,7 +222,7 @@ export default function ProductsBody() {
                 text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                background="storage-background"
+                background="logistics-industry"
               />
             </div>
           )}

@@ -129,8 +129,8 @@ export default function WhatWeOffer() {
               and power generation. Our diesel conforms to the specifications from the Department of 
               Petroleum Resources (DPR)."
               background="what-we-offer"
-              ButtonText="Explore More"
-              link="/products"
+              ButtonText="Contact Us"
+              link="/contact"
             />
           )}
           {activeTab === "Petrol" && (
@@ -138,8 +138,8 @@ export default function WhatWeOffer() {
               title="Premium Motor Spirits - Petrol"
               text="Popularly known as Gasoline or Petrol, is primarily used as fuel in internal combustion engines. Vaspack Energy partners with retail outlets spread across Nigeria."
               background="petrol"
-              ButtonText="Explore More"
-              link="/products/petrol"
+              ButtonText="Contact Us"
+              link="/contact"
             />
           )}
           {activeTab === "Kerosene" && (
@@ -147,8 +147,8 @@ export default function WhatWeOffer() {
               title="Kerosene"
               text="Kerosene, also known as paraffin, lamp oil, and coal oil (an obsolete term), is a combustible hydrocarbon liquid which is derived from petroleum. It is widely used as a fuel in households."
               background="kerosene"
-              ButtonText="Explore More"
-              link="/products/kerosene"
+              ButtonText="Contact Us"
+              link="/contacte"
             />
           )}
           {activeTab === "Liquefied" && (
@@ -156,8 +156,8 @@ export default function WhatWeOffer() {
               title="Liquefied Petroleum Gas"
               text="Liquefied petroleum gas (LPG or LP gas), is a flammable mixture of hydrocarbon gases used as fuel in heating appliances, cooking equipment, and vehicles. We supply to your doorstep at your convenience and to all businesses that require our service"
               background="liquefied"
-              ButtonText="Explore More"
-              link="/products/liquefied"
+              ButtonText="Contact Us"
+              link="/contact"
             />
           )}
           {activeTab === "Lubricant" && (
@@ -165,8 +165,8 @@ export default function WhatWeOffer() {
               title="Lubricant"
               text="Our premium lubricants, meticulously crafted through advanced refining processes, are tailored to meet rigorous industry standards and guarantee optimal protection for your machinery. Trust in our quality assurance, as our products comply with the highest specifications."
               background="lubricants"
-              ButtonText="Explore More"
-              link="/products/lubricants"
+              ButtonText="Contact Us"
+              link="/contact"
             />
           )}
         </div>
