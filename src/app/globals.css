@@ -14,7 +14,7 @@
 }
 .swiper-pagination {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   position: absolute !important;
   left: 75% !important;
   bottom: 5% !important;
@@ -232,7 +232,7 @@ body {
 @media screen and (max-width: 1023px){
   .swiper-pagination {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     position: absolute !important;
     left: 78% !important;
     bottom: 6% !important;
@@ -265,7 +265,7 @@ body {
 @media screen and (max-width: 639px){
   .swiper-pagination {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     position: absolute !important;
     left: 35% !important;
     bottom: 6% !important;
@@ -297,7 +297,7 @@ body {
 @media screen and (max-width: 419px){
   .swiper-pagination {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     position: absolute !important;
     left: 40% !important;
     bottom: 6% !important;

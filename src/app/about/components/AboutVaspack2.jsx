@@ -6,6 +6,7 @@ import experience from "../assets/experience.svg";
 import truck from "../assets/truck.svg";
 import storage from "../assets/storage.svg";
 import gas from "../assets/gas.svg";
+import AnimatedCounter from "@/components/AnimatedCounter/AnimatedCounter";
 
 export default function AboutVaspack2() {
   return (
@@ -34,21 +35,21 @@ export default function AboutVaspack2() {
                 alt="Experience Icon"
               />
             </div>
-            <h3 className=" text-[2.5rem] font-medium ">20+</h3>
+            <h3 className=" flex text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={20} duration={2} /></span>+</h3>
             <p className=" text-[1.1rem] font-medium ">Years of Experience</p>
           </div>
           <div className=" flex py-7 w-[33.3%] flex-col gap-4 items-center">
             <div>
               <Image src={gas} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" text-[2.5rem] font-medium ">20+</h3>
+            <h3 className=" flex text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={20} duration={2} /></span>+</h3>
             <p className=" text-[1.1rem] font-medium ">Retail Stores</p>
           </div>
           <div className=" flex py-7 w-[33.3%] flex-col gap-4 items-center border-solid border-x-[1px] border-OtherWhite ">
             <div>
               <Image src={truck} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" text-[2.5rem] font-medium ">~6000</h3>
+            <h3 className=" flex text-[2.5rem] font-medium ">~<span><AnimatedCounter start={0} end={6000} duration={3} /></span></h3>
             <div className=" text-center">
               <p className=" text-[1.1rem] leading-[20%] font-medium ">
                 Truck Fleet
@@ -62,7 +63,7 @@ export default function AboutVaspack2() {
             <div>
               <Image src={storage} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" text-[2.5rem] font-medium ">20+</h3>
+            <h3 className=" flex text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={20} duration={2} /></span>+</h3>
             <p className=" text-[1.1rem] font-medium ">Years of Experience</p>
           </div>
         </section>

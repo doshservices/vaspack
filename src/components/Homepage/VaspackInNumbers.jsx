@@ -6,6 +6,7 @@ import Image from "next/image";
  import experience from './assets/experience.svg'
  import truck from './assets/truck.svg'
  import storage from './assets/storage.svg'
+import AnimatedCounter from "../AnimatedCounter/AnimatedCounter";
 
 export default function VaspackInNumbers() {
   return (
@@ -37,14 +38,14 @@ export default function VaspackInNumbers() {
             <div>
               <Image src={experience} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" text-[2.5rem] font-medium ">20+</h3>
+            <h3 className="flex text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={20} duration={2} /></span>+</h3>
             <p className=" text-[1.1rem] font-medium ">Years of Experience</p>
           </div>
           <div className=" flex py-7 w-[33.3%] flex-col gap-4 items-center border-solid border-x-[1px] border-OtherWhite ">
             <div>
               <Image src={truck} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" text-[2.5rem] font-medium ">~6000</h3>
+            <h3 className=" flex text-[2.5rem] font-medium ">~<span><AnimatedCounter start={0} end={6000} duration={3} /></span></h3>
             <div className=" text-center">
               <p className=" text-[1.1rem] leading-[20%] font-medium ">Truck Fleet</p>
               <small className=" text-[0.7rem] leading-[20%] mt-[0.3rem] font-medium ">(Including specialized trucks)</small>
@@ -54,7 +55,7 @@ export default function VaspackInNumbers() {
             <div>
               <Image src={storage} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" text-[2.5rem] font-medium ">20+</h3>
+            <h3 className="flex text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={20} duration={2} /></span>+</h3>
             <p  className=" text-[1.1rem] font-medium ">Years of Experience</p>
           </div>
       </section>

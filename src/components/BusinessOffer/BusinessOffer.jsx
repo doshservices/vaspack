@@ -1,5 +1,11 @@
+"use client"
+
 import React from 'react'
 import TalkToUs from '../Button/TalkToUs'
+import CountUp from 'react-countup'
+import AnimatedCounter from '../AnimatedCounter/AnimatedCounter'
+
+
 
 export default function BusinessOffer({title, text, background, ButtonText, link }) {
   return (
@@ -14,17 +20,17 @@ export default function BusinessOffer({title, text, background, ButtonText, link
 
           <div className=" flex justify-between sm:justify-start gap-0 sm:gap-4 md:gap-6 lg:gap-8  text-[0.6rem] ssm:text-[0.7rem] lg:text-[0.8rem] font-semibold leading-[138%] ">
             <div>
-                <h3 className=" text-[1.1rem] ssm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] font-semibold leading-[114%] ">~60</h3>
+                <h3 className=" flex text-[1.1rem] ssm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] font-semibold leading-[114%] ">~<span><AnimatedCounter start={0} end={60} duration={2.5} /></span></h3>
                 <p className=' text-center'>Nationwide Depot</p>
             </div>
             <div className=" border-NormalWhite border-r-[3px] border-solid "/>
             <div>
-                <h3 className=" text-[1.1rem] ssm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] font-semibold leading-[114%] ">~100+</h3>
+                <h3 className="flex text-[1.1rem] ssm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] font-semibold leading-[114%] ">~<span><AnimatedCounter start={0} end={100} duration={5} /></span>+</h3>
                 <p className=' text-center'>Tankers</p>
             </div>
             <div className=" border-NormalWhite border-r-[3px] border-solid "/>
             <div>
-                <h3 className=" text-[1.1rem] ssm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] font-semibold leading-[114%] ">~100+</h3>
+                <h3 className="flex text-[1.1rem] ssm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] font-semibold leading-[114%] ">~<span><AnimatedCounter start={0} end={100} duration={5} /></span>+</h3>
                 <p className=' text-center'>Retail outlet</p>
             </div>
           </div>
