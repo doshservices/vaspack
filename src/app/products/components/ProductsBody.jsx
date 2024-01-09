@@ -21,7 +21,7 @@ export default function ProductsBody() {
   };
 
   return (
-    <div className="mt-6 sm:mt-7 px-[5%] mb-12 ">
+    <div className="my-6 sm:my-7 px-[5%] ">
       <section>
         <section>
           <div className=" ">
@@ -61,7 +61,7 @@ export default function ProductsBody() {
         </div>
       </section>
 
-      <section className=" mt-10 md:mt-14">
+      <section className=" mt-6 xl:mt-7">
         <section>
           <div className=" ">
             <GreenLine text="Industries We Serve" />

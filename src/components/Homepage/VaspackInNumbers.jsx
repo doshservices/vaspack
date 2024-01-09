@@ -10,12 +10,12 @@ import AnimatedCounter from "../AnimatedCounter/AnimatedCounter";
 
 export default function VaspackInNumbers() {
   return (
-    <div className=" bg-[#0A8E26] flex flex-col sm:flex-row justify-between mx-[5%] text-OtherWhite px-[5%] sm:px-[2%] md:px-[3%] py-6 md:py-8 lg:py-7 my-8 lg:my-12 xl:my-14">
-      <section className=" sm:w-[30%] w-[100%] xl:w-[25%] flex flex-col justify-between  text-center sm:text-left ">
+    <div className=" bg-[#0A8E26] flex flex-col sm:flex-row justify-between mx-[5%] text-OtherWhite px-[5%] sm:px-[2%] md:px-[3%] py-6 md:py-8 lg:py-7 my-6 xl:my-7">
+      <section className=" sm:w-[30%] w-[100%] xl:w-[28%] flex flex-col justify-between  text-center sm:text-left ">
         <div className=" ">
           <div className="">
             <hr className=" w-[30%] sm:w-[50%] mx-auto sm:mx-0 border-solid border-[2px] border-OtherWhite " />
-            <h2 className=" uppercase text-[1.2rem] sm:text-[0.9rem] md:text-[1.1rem]  lg:text-[1.2rem] xl:text-[1.5rem] mt-2 md:mt-3 font-semibold tracking-[0.199px] leading-[187%] ">
+            <h2 className=" uppercase text-[1.2rem] sm:text-[0.9rem] md:text-[1.1rem]  lg:text-[1.2rem] xl:text-[1.4rem] mt-2 md:mt-3 font-semibold tracking-[0.199px] leading-[187%] ">
               VASPACK IN NUMBERS
             </h2>
           </div>
@@ -34,8 +34,8 @@ export default function VaspackInNumbers() {
         </div>
       </section>
 
-      <section className=" mt-7 sm:mt-0 flex flex-col sm:flex-row justify-center sm:justify-between text-[0.9rem] sm:text-[0.8rem] md:text-[0.9rem] lg:text-[1.1rem] w-full sm:w-[68%] md:w-[65%] xl:w-[70%] border-solid border-[1px] border-OtherWhite ">
-        <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-4 justify-center items-center">
+      <section className=" mt-7 sm:mt-0 flex flex-col sm:flex-row justify-center sm:justify-between text-[0.9rem] sm:text-[0.8rem] md:text-[0.9rem] lg:text-[1.1rem] w-full sm:w-[68%] md:w-[65%] xl:w-[67%] border-solid border-[1px] border-OtherWhite ">
+        <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-5 justify-center items-center">
           <div>
             <Image src={experience} className=" w-full" alt="Experience Icon" />
           </div>
@@ -47,7 +47,7 @@ export default function VaspackInNumbers() {
           </h3>
           <p className=" font-medium ">Years of Experience</p>
         </div>
-        <div className=" flex w-full sm:w-[33.3%] py-7 flex-col gap-4 items-center border-solid border-y-[1px]  border-OtherWhite  sm:border-x-[1px]  ">
+        <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-5 justify-center items-center border-solid border-y-[1px]  border-OtherWhite  sm:border-x-[1px]  ">
           <div>
             <Image src={truck} className=" w-full" alt="Experience Icon" />
           </div>
@@ -66,7 +66,7 @@ export default function VaspackInNumbers() {
             </small>
           </div>
         </div>
-        <div className=" flex w-full sm:w-[33.3%] py-7  flex-col gap-4 items-center">
+        <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-5 justify-center items-center">
           <div>
             <Image src={storage} className=" w-full" alt="Experience Icon" />
           </div>

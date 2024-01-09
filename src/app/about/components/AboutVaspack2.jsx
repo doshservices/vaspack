@@ -10,7 +10,7 @@ import AnimatedCounter from "@/components/AnimatedCounter/AnimatedCounter";
 
 export default function AboutVaspack2() {
   return (
-    <div className=" bg-[rgb(10,142,38)] mx-[5%] px-[5%] sm:px-[2%] py-7 mt-8 lg:mt-12 xl:mt-14 text-OtherWhite ">
+    <div className=" bg-[rgb(10,142,38)] mx-[5%] px-[5%] sm:px-[2%] py-7 mt-6 xl:mt-7 text-OtherWhite ">
       <section>
         <div className="w-full sm:w-[30%] md:w-[35%] lg:w-[30%]">
           {/* <hr className=" w-[30%] sm:w-[15%] mx-auto sm:mx-0 border-solid border-[2px] border-OtherWhite " />
