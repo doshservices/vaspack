@@ -93,7 +93,7 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className="top-border bg-Gray px-[5%] py-2 md:py-4 flex flex-col sm:flex-row items-center justify-between text-[0.7rem] sm:text-[0.6rem] md:text-[0.7rem] lg:text-[0.75rem] xl:text-[0.8rem] font-medium leading-[112%]  ">
+      <section className="top-border bg-Gray px-[3%] py-2 md:py-4 flex flex-col sm:flex-row items-center justify-between text-[0.7rem] sm:text-[0.6rem] md:text-[0.7rem] lg:text-[0.75rem] xl:text-[0.8rem] font-medium leading-[112%]  ">
         <p>Terms and Conditions</p>
 
         {/* desktop */}
@@ -128,7 +128,7 @@ export default function Footer() {
         </div>
 
         {/* mobile */}
-        <p className=" text-center block sm:hidden">© Copyright 2023 Vaspack Energy Limited. All rights reserved.</p>
+        <p className=" text-center  block sm:hidden">© Copyright 2023 Vaspack Energy Limited. All rights reserved.</p>
 
       </section>
     </footer>

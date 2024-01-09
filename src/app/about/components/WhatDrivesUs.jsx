@@ -8,7 +8,7 @@ export default function WhatDrivesUs() {
         <div className=" ">
           <GreenLine text=" WHAT DRIVES US" />
         </div>
-        <p className=" text-[0.9rem] mt-2 sm:mt-2 font-medium tracking-[0.14px] leading-[214%] text-justify ">
+        <p className=" text-center sm:text-justify text-[0.9rem] mt-2 sm:mt-2 font-medium tracking-[0.14px] leading-[170%]  ">
           We are driven and united by our Mission and Vision
         </p>
       </section>
@@ -17,16 +17,16 @@ export default function WhatDrivesUs() {
           <h3 className=" text-[1.1rem] ssm:text-[1.2rem] lg:text-[1.3rem] xl:text-[1.4rem] leading-[145%] font-semibold ">
             Our Mission
           </h3>
-          <p className=" text-[0.8rem] ssm:text-[0.9rem] leading-[214%] font-medium mt-4 xl:mt-5 ">
+          <p className=" text-[0.8rem] ssm:text-[0.9rem] leading-[214%] font-medium mt-14 xl:mt-5 ">
             Building a sustainable energy business driven by efficiency, quality
             and, above all, strong business ethics.
           </p>
         </div>
-        <div className="vision w-full flex flex-col justify-center gap-24  sm:gap-0 sm:block sm:w-[48%] px-[4%] ssm:px-[2%] pb-4 lg:pb-7 pt-4 sm:pb-28 md:pb-40 lg:pt-48 text-OtherWhite ">
+        <div className="vision w-full flex flex-col justify-end  sm:gap-0 sm:block sm:w-[48%] px-[4%] ssm:px-[2%] pb-4 lg:pb-7  pt-4 sm:pt-28 md:pt-40 lg:pt-48 text-OtherWhite ">
           <h3 className=" text-[1.1rem] ssm:text-[1.2rem] lg:text-[1.3rem] xl:text-[1.4rem] leading-[145%] font-semibold ">
             Our Vision
           </h3>
-          <p className=" text-[0.8rem] ssm:text-[0.9rem] leading-[214%] font-medium mt-4 xl:mt-5 ">
+          <p className=" text-[0.8rem] ssm:text-[0.9rem] leading-[214%] font-medium mt-14 xl:mt-5 ">
             To be the go-to integrated energy solutions provider in Africa
           </p>
         </div>

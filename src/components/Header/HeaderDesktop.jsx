@@ -82,7 +82,7 @@ export default function HeaderDesktop({ href }) {
       </section>
 
       <section className="header-bottom flex items-center justify-between text-[0.6rem] md:text-[0.65rem]  lg:text-[0.85rem] xl:text-[0.9rem] font-medium capitalize  bg-Gray px-[5%] lg:px-[7%] py-[0.25rem] text-OtherBlack">
-        <div className=" flex justify-between items-center gap-10 ">
+        <div className=" flex justify-between items-center gap-4 md:gap-6 lg:gap-10 ">
           <Link
             href="/"
             className={
@@ -127,7 +127,7 @@ export default function HeaderDesktop({ href }) {
           </div>
         
 
-        <div className=" flex justify-between items-center gap-10 ">
+        <div className=" flex justify-between items-center gap-4 md:gap-6 lg:gap-10 ">
           <Link
             href="/news"
             className={

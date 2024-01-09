@@ -63,7 +63,7 @@ export default function Hero() {
                 className={`${background} mx-[0%] text-center sm:text-left sm:mx-[5%] text-NormalWhite h-[30rem] ssm:h-[34rem] sm:h-[50vh] lg:h-[65vh] xl:h-[80vh] xxl:h-[75vh] flex items-end sm:items-end pb-28 sm:pb-5 px-[3%] sm:px-[1.5%] `}
               >
                 <section className=" w-full sm:w-[60%] lg:w-[62%] xl:w-[55%]">
-                  <h1 className=" px-[15%] sm:px-0 text-[1.2rem] ssm:text-[1.4rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem] xl:text-[1.7rem] leading-[181%] font-semibold sm:font-bold ">
+                  <h1 className=" px-[10%] sm:px-0 text-[1.2rem] ssm:text-[1.4rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem] xl:text-[1.7rem] leading-[181%] font-semibold sm:font-bold ">
                     We are an Integrated Energy Company
                   </h1>
                   <p className=" px-[3%] sm:px-0 text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.75rem] md:text-[0.8rem] lg:text-[0.85rem] xl:text-[0.9rem] font-normal sm:font-medium leading-[200%] mt-6 sm:mt-4 ">
