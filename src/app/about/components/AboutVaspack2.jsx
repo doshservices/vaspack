@@ -67,7 +67,7 @@ export default function AboutVaspack2() {
             <div>
               <Image src={storage} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={20} duration={2} /></span>+</h3>
+            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={1000} end={3048} duration={5} /></span>Km</h3>
             <p className=" font-medium ">Years of Experience</p>
           </div>
         </section>
