@@ -74,7 +74,8 @@ export default function VaspackInNumbers() {
             <span>
               <AnimatedCounter start={1000} end={3480} duration={3} />
             </span>
-            km
+            <span>km</span>
+            {/* <sup className=" text-[0.6rem] ">3</sup> */}
           </h3>
           <p className=" font-medium ">Storage Capacity</p>
         </div>

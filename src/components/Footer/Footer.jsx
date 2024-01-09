@@ -16,6 +16,7 @@ import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className=" top-border bg-Gray sm:bg-NormalWhite text-FooterBlack mx-[5%] ">
       <section className="relative px-[3%] flex flex-col sm:flex-row justify-between text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.6rem] md:text-[0.7rem] lg:text-[0.8rem] xl:text-[0.85rem] font-medium py-4 md:py-6 lg:py-8 ">
@@ -97,7 +98,7 @@ export default function Footer() {
         <p>Terms and Conditions</p>
 
         {/* desktop */}
-        <p className=" hidden sm:block">© Copyright 2023 Vaspack Energy Limited. All rights reserved.</p>
+        <p className=" hidden sm:block">© Copyright {currentYear} Vaspack Energy Limited. All rights reserved.</p>
 
         <div className=" w-[50%] text-[1.15rem] ssm:w-[50%] sm:w-[15%] py-4 sm:py-0 flex justify-center sm:justify-end gap-4 sm:gap-4 ">
           <div >
