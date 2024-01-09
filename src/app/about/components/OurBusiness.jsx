@@ -27,7 +27,7 @@ export default function OurBusiness() {
         diesel conforms to the specifications from the Department of
         Petroleum Resources (DPR)."
           background="our-business"
-          ButtonText="Talk To Us"
+          ButtonText="Contact"
         />
       </div>
     </div>

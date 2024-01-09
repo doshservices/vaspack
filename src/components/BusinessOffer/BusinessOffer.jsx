@@ -9,7 +9,7 @@ import AnimatedCounter from '../AnimatedCounter/AnimatedCounter'
 
 export default function BusinessOffer({title, text, background, ButtonText, link }) {
   return (
-    <section className={`${background} mt-5 h-[28rem] ssm:h-[30rem] sm:h-[45vh] lg:h-[60vh] xl:h-[70vh] py-4 sm:py-7 px-[7.5%] text-center sm:text-left  sm:px-[2%] text-OtherWhite flex items-center sm:items-start gap-14 sm:gap-0 flex-col sm:flex-row justify-center sm:justify-between`}>
+    <section className={`${background} mt-5 h-[28rem] ssm:h-[30rem] sm:h-[45vh] lg:h-[60vh] xl:h-[70vh] py-4 sm:py-7 px-[7.5%] text-center sm:text-left  sm:px-[2%] text-OtherWhite flex items-center sm:items-end gap-14 sm:gap-0 flex-col sm:flex-row justify-center sm:justify-between`}>
         <div className=" w-full sm:w-[65%] lg:w-[55%] flex flex-col   justify-end gap-6 md:gap-7 ">
           <div>
             <h2 className=" text-[1.1rem] sm:text-[1.3rem] lg:text-[1.4rem] font-semibold leading-[145%] ">{title} </h2>
