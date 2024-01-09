@@ -59,7 +59,7 @@ export default function WhatWeOffer() {
     },
   ];
   return (
-    <div className="my-4 ssm:my-7 sm:my-12 md:my-16 lg:my-20 px-[5%] ">
+    <div className="mb-4 ssm:mb-7 sm:mb-12 md:mb-8 lg:mb-12 xl:mb-15 px-[5%] ">
       <section className=" text-center sm:text-left">
         <GreenLine text="WHAT WE OFFER" />
       </section>
@@ -67,7 +67,7 @@ export default function WhatWeOffer() {
       {/* desktop */}
       <section className=" hidden sm:block relative ">
         <div className="border-t-[1.5px] w-[100%] border-solid bg-OtherWhite mt-[1px] z-[-2] absolute top-0  "></div>
-        <div className=" flex justify-between text-[0.9rem] font-medium mt-8 ">
+        <div className=" flex justify-between text-[0.7rem] md:text-[0.8rem] lg:text-[0.9rem] font-medium mt-6 lg:mt-8 ">
           <h3
             onClick={() => handleTabDesktopClick("Automotive")}
             className={`border-t-[4px] border-solid  cursor-pointer pt-4 ${

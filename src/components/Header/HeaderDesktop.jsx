@@ -50,14 +50,12 @@ export default function HeaderDesktop({ href }) {
         <div className=" flex items-center gap-4  ">
           <div className="flex gap-2 items-center w-full  ">
             <div className=" text-[1.1rem] ">
-              {/* <Image alt="icon" src={call} className="w-[100%]" /> */}
               <IoCall />
             </div>
             <p>+234 909 575 0443</p>
           </div>
           <div className="flex gap-2 items-center w-full  ">
             <div className="text-[1.1rem] ">
-              {/* <Image alt="icon" className="w-full " src={sms} /> */}
               <MdEmail />
             </div>
             <p>sales@vaspackenergy.com</p>
@@ -84,7 +82,7 @@ export default function HeaderDesktop({ href }) {
       </section>
 
       <section className="header-bottom flex items-center justify-between text-[0.6rem] md:text-[0.65rem]  lg:text-[0.85rem] xl:text-[0.9rem] font-medium capitalize  bg-Gray px-[5%] lg:px-[7%] py-[0.25rem] text-OtherBlack">
-        <div className=" flex justify-between items-center w-[35%] xl:w-[30%] ">
+        <div className=" flex justify-between items-center gap-10 ">
           <Link
             href="/"
             className={
@@ -129,7 +127,7 @@ export default function HeaderDesktop({ href }) {
           </div>
         
 
-        <div className=" flex justify-between items-center w-[40%] xl:w-[35%] ">
+        <div className=" flex justify-between items-center gap-10 ">
           <Link
             href="/news"
             className={

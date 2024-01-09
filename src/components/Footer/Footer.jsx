@@ -18,7 +18,7 @@ import { IoCall } from "react-icons/io5";
 export default function Footer() {
   return (
     <footer className=" top-border bg-Gray sm:bg-NormalWhite text-FooterBlack mx-[5%] ">
-      <section className="relative px-[3%] flex flex-col sm:flex-row justify-between text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.6rem] md:text-[0.7rem] lg:text-[0.8rem] xl:text-[0.85rem] font-medium py-4 md:y-6 lg:py-8 ">
+      <section className="relative px-[3%] flex flex-col sm:flex-row justify-between text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.6rem] md:text-[0.7rem] lg:text-[0.8rem] xl:text-[0.85rem] font-medium py-4 md:py-6 lg:py-8 ">
         <div className=" w-full sm:w-[30%] ">
           <div className=" flex justify-center sm:block">
             <Image src={logo} className="w-[45%] xl:w-[40%]" alt="Vaspack Logo" />

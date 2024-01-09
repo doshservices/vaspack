@@ -60,13 +60,13 @@ export default function Hero() {
           <div className="">
             <SwiperSlide>
               <div
-                className={`${background} mx-[0%] sm:mx-[5%] text-NormalWhite h-[30rem] sm:h-[60vh] ssm:h-[70vh] md:h-[55vh] lg:h-[70vh] xl:h-[80vh] flex items-center sm:items-end pb-[2vh] px-[3%] sm:px-[1.5%] `}
+                className={`${background} mx-[0%] text-center sm:text-left sm:mx-[5%] text-NormalWhite h-[30rem] ssm:h-[34rem] sm:h-[50vh] lg:h-[65vh] xl:h-[80vh] xxl:h-[75vh] flex items-end sm:items-end pb-28 sm:pb-5 px-[3%] sm:px-[1.5%] `}
               >
                 <section className=" w-full sm:w-[60%] lg:w-[62%] xl:w-[55%]">
-                  <h1 className="  text-[1.2rem] ssm:text-[1.4rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem] xl:text-[1.7rem] leading-[171%] font-semibold sm:font-bold ">
+                  <h1 className=" px-[15%] sm:px-0 text-[1.2rem] ssm:text-[1.4rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem] xl:text-[1.7rem] leading-[181%] font-semibold sm:font-bold ">
                     We are an Integrated Energy Company
                   </h1>
-                  <p className=" text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.75rem] md:text-[0.8rem] lg:text-[0.85rem] xl:text-[0.9rem] font-normal sm:font-medium leading-[200%] mt-2 md:mt-4 ">
+                  <p className=" px-[3%] sm:px-0 text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.75rem] md:text-[0.8rem] lg:text-[0.85rem] xl:text-[0.9rem] font-normal sm:font-medium leading-[200%] mt-6 sm:mt-4 ">
                     Vaspack Energy Limited is an indigenous downstream company
                     in the Oil & Gas sector with interests in procurement,
                     marketing and distribution of Petroleum Products (Automotive
@@ -81,7 +81,7 @@ export default function Hero() {
       </Swiper>
 
       {/* navigation bar */}
-      <div className="z-[5] absolute text-black bottom-[-0.5%] ssm:bottom-[1.5%] sm:bottom-[0%] xl:bottom-[-1%] left-[5%] sm:left-auto right-auto sm:right-[24%] lg:right-[27%] ">
+      <div className="z-[5] ml-[50%] sm:ml-[0%] translate-x-[-50%] sm:translate-x-none absolute text-black bottom-[-0.5%] ssm:bottom-[1.5%] sm:bottom-[0%] xl:bottom-[-1%] left-[0%] sm:left-auto right-auto sm:right-[24%] lg:right-[27%] ">
         <div className="flex gap-2 ssm:gap-3 py-[3vh]  sm:gap-3 ssm:py-[2vh] sm:py-[2.5vh] md:py-[2vh] lg:gap-3 xl:py-[3vh]">
           <div onClick={() => swiper?.slidePrev()} className="cursor-pointer">
             <svg

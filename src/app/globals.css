@@ -74,6 +74,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.home-hero4 {
+  background-image: url("../components/Homepage/assets/Home4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .what-we-offer {
   background-image: url("../components/Homepage/assets/Home4.png");
   background-position: center;
@@ -251,7 +257,7 @@ body {
   }
   .swiper-pagination-bullet-active {
     border-radius: 8px !important;
-    background: #0A8E26 !important;
+    background: #8BDA27 !important;
     transform: scale(130%) !important;
     /* width: 1rem !important; */
     z-index: 10 !important;
@@ -265,12 +271,13 @@ body {
 @media screen and (max-width: 639px){
   .swiper-pagination {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     position: absolute !important;
-    left: 35% !important;
-    bottom: 6% !important;
+    left: 0% !important;
+    margin: 0 25%;
+    bottom: 15% !important;
     background: #FFFFFF !important;
-    width: 60% !important;
+    width: 50% !important;
     border-radius: 8px !important;
   }
   .swiper-pagination-bullet {
@@ -283,7 +290,7 @@ body {
   }
   .swiper-pagination-bullet-active {
     border-radius: 8px !important;
-    background: #0A8E26 !important;
+    background: #8BDA27 !important;
     transform: scale(130%) !important;
     /* width: 1rem !important; */
     z-index: 10 !important;
@@ -297,10 +304,11 @@ body {
 @media screen and (max-width: 419px){
   .swiper-pagination {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     position: absolute !important;
-    left: 40% !important;
-    bottom: 6% !important;
+    left: 0% !important;
+    margin: 0 25%;
+    bottom: 15% !important;
     background: #FFFFFF !important;
     width: 55% !important;
     border-radius: 8px !important;
@@ -315,7 +323,7 @@ body {
   }
   .swiper-pagination-bullet-active {
     border-radius: 8px !important;
-    background: #0A8E26 !important;
+    background: #8BDA27 !important;
     transform: scale(130%) !important;
     /* width: 1rem !important; */
     z-index: 10 !important;
