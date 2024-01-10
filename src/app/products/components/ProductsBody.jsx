@@ -40,23 +40,23 @@ export default function ProductsBody() {
         <div className=" flex justify-between pt-6 lg:pt-8 text-OtherBlack text-[0.7rem] ssm:text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.3rem] font-semibold leading-[145%] ">
           <div>
             <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              ~<span><AnimatedCounter start={0} end={60} duration={3} /></span>
+              <span><AnimatedCounter start={0} end={20} duration={3} /></span>
             </h3>
-            <p className=" text-center">Nationwide Depot</p>
+            <p className=" text-center">Nationwide Depots</p>
           </div>
           <div className=" border-OtherBlack border-r-[3px] border-solid  " />
           <div>
             <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              ~<span><AnimatedCounter start={0} end={100} duration={5} /></span>+
+              <span><AnimatedCounter start={0} end={10} duration={2} /></span>+
             </h3>
             <p className=" text-center">Tankers</p>
           </div>
           <div className=" border-OtherBlack border-r-[3px] border-solid " />
           <div>
             <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              ~<span><AnimatedCounter start={0} end={100} duration={5} /></span>+
+              <span><AnimatedCounter start={1000} end={3048} duration={3} /></span>km
             </h3>
-            <p className=" text-center">Retail outlet</p>
+            <p className=" text-center">Storage Capacity</p>
           </div>
         </div>
       </section>
@@ -175,9 +175,7 @@ export default function ProductsBody() {
             <div className="w-[56%] md:w-[53%] lg:w-[48%] ">
               <IndustriesCard
                 title="Industrial"
-                text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                text="Embark on a journey of unparalleled excellence as we drive progress in the heart of industrial energy solutions, delivering reliability and innovation to power a sustainable future."
                 background="industrial-industry"
               />
             </div>
@@ -186,9 +184,7 @@ export default function ProductsBody() {
             <div className="w-[56%] md:w-[53%] lg:w-[48%] ">
               <IndustriesCard
                 title="Residential"
-                text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                text="Join us in cultivating a sustainable future through the power of innovation and reliability in the dynamic realm of residential services, where your comfort and well-being are our top priorities."
                 background="residential-industry"
               />
             </div>
@@ -197,9 +193,7 @@ export default function ProductsBody() {
             <div className="w-[56%] md:w-[53%] lg:w-[48%] ">
               <IndustriesCard
                 title="Small-Business"
-                text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                text="Small Business: Our dedication to excellence ensures a reliable and innovative partnership, fostering growth that not only meets but exceeds the unique demands of small enterprises."
                 background="small-business-industry"
               />
             </div>
@@ -208,9 +202,7 @@ export default function ProductsBody() {
             <div className="w-[56%] md:w-[53%] lg:w-[48%] ">
               <IndustriesCard
                 title="Commercial"
-                text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                text="Enjoy the synergy of tailored solutions and unwavering commitment as we elevate standards in commercial services."
                 background="commercial-industry"
               />
             </div>
@@ -219,9 +211,7 @@ export default function ProductsBody() {
             <div className="w-[56%] md:w-[53%] lg:w-[48%] ">
               <IndustriesCard
                 title="Logistics"
-                text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                text="Experience the synergy of streamlined operations and unwavering commitment as we elevate standards in logistics services."
                 background="logistics-industry"
               />
             </div>
@@ -297,9 +287,7 @@ export default function ProductsBody() {
               <div className="w-[100%] ">
                 <IndustriesCard
                   title="Industrial"
-                  text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                  text="Embark on a journey of unparalleled excellence as we drive progress in the heart of industrial energy solutions, delivering reliability and innovation to power a sustainable future."
                   background="industrial-industry"
                 />
               </div>
@@ -334,9 +322,7 @@ export default function ProductsBody() {
               <div className="w-[100%] ">
                 <IndustriesCard
                   title="Residential"
-                  text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                  text="Join us in cultivating a sustainable future through the power of innovation and reliability in the dynamic realm of residential services, where your comfort and well-being are our top priorities."
                   background="residential-industry"
                 />
               </div>
@@ -371,9 +357,7 @@ export default function ProductsBody() {
               <div className="w-[100%] ">
                 <IndustriesCard
                   title="Small-Business"
-                  text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                  text="Our dedication to excellence ensures a reliable and innovative partnership, fostering growth that not only meets but exceeds the unique demands of small enterprises."
                   background="small-business-industry"
                 />
               </div>
@@ -408,9 +392,7 @@ export default function ProductsBody() {
               <div className="w-[100%] ">
                 <IndustriesCard
                   title="Commercial"
-                  text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                  text="Enjoy the synergy of tailored solutions and unwavering commitment as we elevate standards in commercial services."
                   background="commercial-industry"
                 />
               </div>
@@ -445,9 +427,7 @@ export default function ProductsBody() {
             <div className="w-[100%] ">
               <IndustriesCard
                 title="Logistics"
-                text="Experience a synergy of excellence as we fuel progress in the heart of
-                agriculture, providing reliability and innovation to cultivate a
-                sustainable future."
+                text="Experience the synergy of streamlined operations and unwavering commitment as we elevate standards in logistics services."
                 background="logistics-industry"
               />
             </div>

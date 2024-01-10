@@ -24,7 +24,7 @@ export default function WhatWeOffer() {
   const OfferMap = [
     {
       key: 1,
-      background: "what-we-offer",
+      background: "automotive",
       title: "Automotive Gas Oil - Diesel",
       cardTitle: "Automotive Gas Oil - Diesel ",
       link: "products",
@@ -133,7 +133,7 @@ export default function WhatWeOffer() {
               process and is predominantly used to efficiently power internal combustion diesel engines 
               and power generation. Our diesel conforms to the specifications from the Department of 
               Petroleum Resources (DPR)."
-              background="what-we-offer"
+              background="automotive"
               ButtonText="Explore More"
               link="/products"
             />

@@ -236,6 +236,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.automotive {
+  background-image: url("../components/Homepage/assets/automotive.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .kerosene {
   background-image: url("../components/Homepage/assets/Kerosene.png");
   background-position: center;

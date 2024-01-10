@@ -39,7 +39,7 @@ export default function AboutVaspack2() {
                 alt="Experience Icon"
               />
             </div>
-            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={20} duration={2} /></span>+</h3>
+            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={2} duration={2} /></span>+</h3>
             <p className=" font-medium ">Years of Experience</p>
           </div>
           <div className=" flex py-7 w-full border-y-[1px] border-solid border-OtherWhite sm:border-none sm:w-[33.3%] flex-col gap-4 items-center">
@@ -47,13 +47,13 @@ export default function AboutVaspack2() {
               <Image src={gas} className=" w-full" alt="Experience Icon" />
             </div>
             <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={20} duration={2} /></span>+</h3>
-            <p className=" font-medium ">Retail Stores</p>
+            <p className=" font-medium ">Nationwide Depots</p>
           </div>
           <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-4 items-center border-solid border-x-[1px] border-OtherWhite ">
             <div>
               <Image src={truck} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">~<span><AnimatedCounter start={0} end={6000} duration={3} /></span></h3>
+            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={10} duration={2} /></span></h3>
             <div className=" text-center">
               <p className=" leading-[20%] font-medium ">
                 Truck Fleet

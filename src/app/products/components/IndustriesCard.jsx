@@ -13,7 +13,7 @@ export default function IndustriesCard({text, title, background}) {
         </p>
       </div>
 
-      <div className=" pt-12 ssm:pt-14 sm:pt-0 flex justify-between sm:justify-start gap-0 sm:gap-4 lg:gap-8  text-[0.6rem] ssm:text-[0.65rem] md:text-[0.7rem] lg:text-[0.75rem] xl:text-[0.8rem] font-semibold leading-[138%] ">
+      {/* <div className=" pt-12 ssm:pt-14 sm:pt-0 flex justify-between sm:justify-start gap-0 sm:gap-4 lg:gap-8  text-[0.6rem] ssm:text-[0.65rem] md:text-[0.7rem] lg:text-[0.75rem] xl:text-[0.8rem] font-semibold leading-[138%] ">
         <div>
           <h3 className=" flex justify-center text-[1rem] ssm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem] xl:text-[1.7rem] font-semibold leading-[114%] ">~<span><AnimatedCounter start={0} end={60} duration={3} /></span></h3>
           <p className="text-center">Nationwide Depot</p>
@@ -32,7 +32,7 @@ export default function IndustriesCard({text, title, background}) {
           </h3>
           <p className="text-center">Retail outlet</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

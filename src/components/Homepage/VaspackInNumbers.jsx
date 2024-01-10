@@ -41,7 +41,7 @@ export default function VaspackInNumbers() {
           </div>
           <h3 className="flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
             <span>
-              <AnimatedCounter start={0} end={20} duration={2} />
+              <AnimatedCounter start={0} end={2} duration={2} />
             </span>
             +
           </h3>
@@ -52,9 +52,9 @@ export default function VaspackInNumbers() {
             <Image src={truck} className=" w-full" alt="Experience Icon" />
           </div>
           <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
-            ~
+            
             <span>
-              <AnimatedCounter start={0} end={6000} duration={3} />
+              <AnimatedCounter start={0} end={10} duration={2} />
             </span>
           </h3>
           <div className=" text-center">
@@ -72,7 +72,7 @@ export default function VaspackInNumbers() {
           </div>
           <h3 className="flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
             <span>
-              <AnimatedCounter start={1000} end={3480} duration={3} />
+              <AnimatedCounter start={1000} end={3048} duration={3} />
             </span>
             <span>km</span>
             {/* <sup className=" text-[0.6rem] ">3</sup> */}
