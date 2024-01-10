@@ -4,6 +4,7 @@ import React, { useRef, useState } from "react";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { useSwiper } from "swiper/react";
 import { BsArrowLeftCircle, BsFillArrowRightCircleFill } from "react-icons/bs";
+import { IoChevronForward, IoChevronBack } from "react-icons/io5"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -94,40 +95,13 @@ export default function Hero() {
       </Swiper>
 
       {/* navigation bar */}
-      <div className="z-[5] ml-[50%] sm:ml-[0%] translate-x-[-50%] sm:translate-x-none absolute text-black bottom-[-0.5%] ssm:bottom-[1.5%] sm:bottom-[0%] xl:bottom-[-1%] left-[0%] sm:left-auto right-auto sm:right-[24%] lg:right-[27%] ">
-        <div className="flex gap-2 ssm:gap-3 py-[3vh]  sm:gap-3 ssm:py-[2vh] sm:py-[2.5vh] md:py-[2vh] lg:gap-3 xl:py-[3vh]">
-          <div onClick={goToPreviousSlide} className="cursor-pointer">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="34"
-              height="34"
-              viewBox="0 0 34 34"
-              fill="none"
-              className=" w-full"
-            >
-              <circle cx="17" cy="17" r="17" fill="#848584" />
-              <path
-                d="M12.6 17L18.6 23L20 21.6L15.4 17L20 12.4L18.6 11L12.6 17Z"
-                fill="#2D2D2D"
-              />
-            </svg>
-            {/* <BsArrowLeftCircle className="text-[2rem] text-[#DF6751] hover:text-[#FE8B75] ssm:text-[2.5rem] md:text-[1.5rem] lg:text-[2rem]" /> */}
+      <div className="z-[5] ml-[50%] sm:ml-[0%] translate-x-[-50%] sm:translate-x-none absolute text-OtherBlack bottom-[-0.5%] ssm:bottom-[1.5%] sm:bottom-[-1.5%] lg:bottom-0 xl:bottom-[-1%] left-[0%] sm:left-auto right-auto sm:right-[18%] md:right-[20%] lg:right-[24%] ">
+        <div className="flex gap-3 py-[3vh]  sm:gap-3 ssm:py-[2vh] sm:py-[2.5vh] md:py-[2vh] lg:gap-3 xl:py-[3vh]">
+        <div className="cursor-pointer px-2 py-2 rounded-full bg-[#848584] hover:text-OtherWhite hover:bg-Secondary" onClick={goToPreviousSlide}>
+            <IoChevronBack    className=" text-[1.3rem] lg:text-[1.2rem] font-semibold " />
           </div>
-          <div className="cursor-pointer" onClick={goToNextSlide}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="34"
-              height="34"
-              viewBox="0 0 34 34"
-              fill="none"
-            >
-              <circle cx="17" cy="17" r="17" fill="#8BDA27" />
-              <path
-                d="M20.4 17L14.4 23L13 21.6L17.6 17L13 12.4L14.4 11L20.4 17Z"
-                fill="#2D2D2D"
-              />
-            </svg>
-            {/* <BsFillArrowRightCircleFill className="text-[2rem]  text-[#DF6751] ml-[30%] sm:ml-[0] ssm:text-[2.5rem] md:text-[1.5rem] lg:text-[2rem] hover:text-[#FE8B75]" /> */}
+          <div className="cursor-pointer px-2 py-2 rounded-full bg-[#8BDA27] hover:text-OtherWhite hover:bg-Secondary" onClick={goToNextSlide}>
+            <IoChevronForward   className=" text-[1.3rem] lg:text-[1.2rem] font-semibold " />
           </div>
         </div>
       </div>
