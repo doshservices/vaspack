@@ -37,7 +37,19 @@ export default function Hero() {
     },
   ];
 
-  const swiper = useSwiper();
+  const swiperRef = useRef(null);
+
+  const goToPreviousSlide = () => {
+    if (swiperRef.current && swiperRef.current.slidePrev) {
+      swiperRef.current.slidePrev();
+    }
+  };
+
+  const goToNextSlide = () => {
+    if (swiperRef.current && swiperRef.current.slideNext) {
+      swiperRef.current.slideNext();
+    }
+  };
 
   return (
     <div className="relative  mt-12 ssm:mt-16 sm:mt-20 md:mt-24 lg:mt-28 ">
@@ -55,10 +67,11 @@ export default function Hero() {
         navigation={false}
         modules={[Autoplay, EffectFade, Pagination, Navigation]}
         className="mySwiper"
+        onSwiper={(swiper) => (swiperRef.current = swiper)}
       >
         {HeroMap.map(({ background }) => (
           <div className="">
-            <SwiperSlide>
+            <SwiperSlide key={background}>
               <div
                 className={`${background} mx-[0%] text-center sm:text-left sm:mx-[5%] text-NormalWhite h-[30rem] ssm:h-[34rem] sm:h-[50vh] lg:h-[65vh] xl:h-[80vh] xxl:h-[75vh] flex items-end sm:items-end pb-28 sm:pb-5 px-[3%] sm:px-[1.5%] `}
               >
@@ -83,7 +96,7 @@ export default function Hero() {
       {/* navigation bar */}
       <div className="z-[5] ml-[50%] sm:ml-[0%] translate-x-[-50%] sm:translate-x-none absolute text-black bottom-[-0.5%] ssm:bottom-[1.5%] sm:bottom-[0%] xl:bottom-[-1%] left-[0%] sm:left-auto right-auto sm:right-[24%] lg:right-[27%] ">
         <div className="flex gap-2 ssm:gap-3 py-[3vh]  sm:gap-3 ssm:py-[2vh] sm:py-[2.5vh] md:py-[2vh] lg:gap-3 xl:py-[3vh]">
-          <div onClick={() => swiper?.slidePrev()} className="cursor-pointer">
+          <div onClick={goToPreviousSlide} className="cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="34"
@@ -100,7 +113,7 @@ export default function Hero() {
             </svg>
             {/* <BsArrowLeftCircle className="text-[2rem] text-[#DF6751] hover:text-[#FE8B75] ssm:text-[2.5rem] md:text-[1.5rem] lg:text-[2rem]" /> */}
           </div>
-          <div className="cursor-pointer" onClick={() => swiper?.slideNext()}>
+          <div className="cursor-pointer" onClick={goToNextSlide}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="34"

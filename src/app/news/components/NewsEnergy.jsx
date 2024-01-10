@@ -32,7 +32,7 @@ export default function NewsEnergy() {
             className=" flex flex-col-reverse w-full sm:w-[30%] pt-8 "
           >
             <div className=" flex items-center sm:flex-row justify-between">
-              <button className=" text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.6rem] md:text-[0.65rem] lg:text-[0.75rem] xl:text-[0.8rem] leading-00%] border-Secondary hover:border-none hover:bg-Secondary hover:text-NormalWhite text-Secondary font-medium border-solid border-[1.5px] rounded-[4px] px-4 sm:px-2 xl:px-2 py-1 ">
+              <button className=" text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.6rem] md:text-[0.65rem] lg:text-[0.75rem] xl:text-[0.8rem] leading-00%] border-Secondary  hover:bg-Secondary hover:border-[1.5px] hover:border-Secondary hover:text-NormalWhite text-Secondary font-medium border-solid border-[1.5px] rounded-[4px] px-4 sm:px-2 xl:px-2 py-1 ">
                 Read Post{" "}
               </button>
               <p className=" text-[#666666] text-[0.9rem] ssm:text-base sm:text-[0.6rem] md:text-[0.7rem] lg:text-[0.9rem] xl:text-base font-bold leading-[200%] ">
