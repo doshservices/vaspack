@@ -47,7 +47,7 @@ export default function ProductsBody() {
           <div className=" border-OtherBlack border-r-[3px] border-solid  " />
           <div>
             <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              <span><AnimatedCounter start={0} end={10} duration={2} /></span>+
+              <span><AnimatedCounter start={0} end={10} duration={2} /></span>
             </h3>
             <p className=" text-center">Tankers</p>
           </div>
