@@ -300,7 +300,7 @@ export default function ProductsBody() {
                   text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                  background="mission"
+                  background="industrial-industry"
                 />
               </div>
             )}
@@ -337,7 +337,7 @@ export default function ProductsBody() {
                   text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                  background="vision"
+                  background="residential-industry"
                 />
               </div>
             )}
@@ -374,7 +374,7 @@ export default function ProductsBody() {
                   text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                  background="years-background"
+                  background="small-business-industry"
                 />
               </div>
             )}
@@ -411,7 +411,7 @@ export default function ProductsBody() {
                   text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                  background="truck-background"
+                  background="commercial-industry"
                 />
               </div>
             )}
@@ -448,7 +448,7 @@ export default function ProductsBody() {
                 text="Experience a synergy of excellence as we fuel progress in the heart of
                 agriculture, providing reliability and innovation to cultivate a
                 sustainable future."
-                background="storage-background"
+                background="logistics-industry"
               />
             </div>
           )}
