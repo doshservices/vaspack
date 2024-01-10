@@ -8,9 +8,8 @@ import DropdownOther2 from "@/components/Dropdown/DropdownOther2";
 export default function ContactForm() {
   return (
     <div className=" px-[5%] lg:px-[5%] my-6 xl:my-7 ">
-      <section>
-        {/* <Image src={map} alt="A map" className=" w-full" /> */}
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.55082311516!2d3.4376762735036945!3d6.451662623997082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4e82fbe9423%3A0xa9c16549d43d88ca!2s49%20Glover%20Rd%2C%20Ikoyi%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1704725613214!5m2!1sen!2sng" width="100%" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <section className=" h-[240px] sm:h-[450px]">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.55082311516!2d3.4376762735036945!3d6.451662623997082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4e82fbe9423%3A0xa9c16549d43d88ca!2s49%20Glover%20Rd%2C%20Ikoyi%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1704725613214!5m2!1sen!2sng" width="100%" height="100%"  style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
 
       <form action="" className=" mt-7 ">
