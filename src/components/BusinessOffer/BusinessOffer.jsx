@@ -7,13 +7,13 @@ import AnimatedCounter from '../AnimatedCounter/AnimatedCounter'
 
 
 
-export default function BusinessOffer({title, text, background, ButtonText, link }) {
+export default function BusinessOffer({title, text, background, ButtonText, link, height }) {
   return (
-    <section className={`${background} mt-5 h-[26rem] ssm:h-[28rem] sm:h-[45vh] lg:h-[60vh] xl:h-[70vh] py-4 sm:py-7 px-[7.5%] text-center sm:text-left  sm:px-[2%] text-OtherWhite flex items-center sm:items-end gap-7 sm:gap-0 flex-col sm:flex-row justify-center sm:justify-between`}>
-        <div className=" w-full sm:w-[65%] lg:w-[55%] flex flex-col  justify-end gap-6 md:gap-7 ">
+    <section className={`${background} ${height} mt-5 sm:h-[67vh] md:h-[57vh] lg:h-[60vh] xl:h-[70vh] xxl:h-[65vh] py-4 sm:py-7 px-[5%] text-center sm:text-left  sm:px-[2%] text-OtherWhite flex items-center sm:items-end gap-7 sm:gap-0 flex-col sm:flex-row justify-center sm:justify-between`}>
+        <div className=" w-full sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] xxl:w-[60%] flex flex-col  justify-end gap-4 sm:gap-4 md:gap-4 lg:gap-7 ">
           <div>
-            <h2 className=" text-[1.1rem] sm:text-[1.3rem] lg:text-[1.4rem] font-semibold leading-[145%] ">{title} </h2>
-            <p className="mt-3 lg:mt-4 text-[0.8rem] text-center sm:text-left lg:text-[0.9rem] font-medium leading-[214%] ">
+            <h2 className=" text-[1.2rem] sm:text-[1.3rem] lg:text-[1.4rem] font-semibold leading-[145%] ">{title} </h2>
+            <p className="mt-3 lg:mt-4 text-[0.8rem] text-center sm:text-left lg:text-[0.9rem] font-medium leading-[170%] ssm:leading-[190%] sm:leading-[214%] ">
               {text}
             </p>
           </div>

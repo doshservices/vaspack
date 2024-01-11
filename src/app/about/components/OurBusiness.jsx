@@ -21,13 +21,10 @@ export default function OurBusiness() {
       <div>
         <BusinessOffer
           title="How We Create Value"
-          text="Automotive Gas oil, also known as diesel, is generated from crude
-        distillation process and is predominantly used to efficiently
-        power internal combustion diesel engines and power generation. Our
-        diesel conforms to the specifications from the Department of
-        Petroleum Resources (DPR)."
+          text="Vaspack Energy strategically addresses industry needs by offering a comprehensive turnkey service in its B2B business model, emphasizing partnership retention and relationship-building within the market/industry. The operational framework encompasses market understanding, defining target audiences, collaborating with experts, articulating key value propositions, integrating cutting-edge technology, prototyping and testing, ensuring regulatory compliance, fostering partnerships, prioritizing scalability and flexibility, implementing a robust marketing strategy, providing customer support and training, and committing to continuous improvement."
           background="our-business"
           ButtonText="Contact Us"
+          // height="h-[34rem]"
         />
       </div>
     </div>

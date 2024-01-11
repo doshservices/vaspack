@@ -17,8 +17,12 @@ import "swiper/css/effect-fade";
 // import required modules
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import HeroSwiperNav from "./HeroSwiperNav";
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
+
+  const { t } = useTranslation();
+  
   const HeroMap = [
     {
       key: 1,
@@ -81,11 +85,8 @@ export default function Hero() {
                     We are an Integrated Energy Company
                   </h1>
                   <p className=" px-[3%] sm:px-0 text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.75rem] md:text-[0.8rem] lg:text-[0.85rem] xl:text-[0.9rem] font-normal sm:font-medium leading-[200%] mt-6 sm:mt-4 ">
-                    Vaspack Energy Limited is an indigenous downstream company
-                    in the Oil & Gas sector with interests in procurement,
-                    marketing and distribution of Petroleum Products (Automotive
-                    Gas Oil (AGO), Premium Motor Spirit (PMS) and Liquefied
-                    Petroleum Gas (LPG); using innovative technology.
+                    {/* {t ('hero_text') } */}
+                    Vaspack Energy Limited is an indigenous downstream companyin the Oil & Gas sector with interests in procurement,marketing and distribution of Petroleum Products (Automotive Gas Oil (AGO), Premium Motor Spirit (PMS) and Liquefied Petroleum Gas (LPG); using innovative technology
                   </p>
                 </section>
               </div>

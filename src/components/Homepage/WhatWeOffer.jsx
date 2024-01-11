@@ -208,6 +208,7 @@ export default function WhatWeOffer() {
                     background={background}
                     ButtonText="Explore More"
                     link={`/${link}`}
+                    height="h-[26rem]"
                   />
                 </SwiperSlide>
               </div>

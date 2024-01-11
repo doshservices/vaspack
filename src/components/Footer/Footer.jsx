@@ -53,7 +53,7 @@ export default function Footer() {
               <Link href="/" className=" hover:text-OtherGreen">Careers</Link>
             </li>
             <li>
-              <Link href="/" className=" hover:text-OtherGreen">Sustainability</Link>
+              <Link href="/sustainability" className=" hover:text-OtherGreen">Sustainability</Link>
             </li>
             <li>
               <Link href="/" className=" hover:text-OtherGreen">Locations</Link>
