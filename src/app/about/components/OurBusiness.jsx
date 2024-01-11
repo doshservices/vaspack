@@ -24,6 +24,7 @@ export default function OurBusiness() {
           text="Vaspack Energy strategically addresses industry needs by offering a comprehensive turnkey service in its B2B business model, emphasizing partnership retention and relationship-building within the market/industry. The operational framework encompasses market understanding, defining target audiences, collaborating with experts, articulating key value propositions, integrating cutting-edge technology, prototyping and testing, ensuring regulatory compliance, fostering partnerships, prioritizing scalability and flexibility, implementing a robust marketing strategy, providing customer support and training, and committing to continuous improvement."
           background="our-business"
           ButtonText="Contact Us"
+          link="/contact"
           // height="h-[34rem]"
         />
       </div>
