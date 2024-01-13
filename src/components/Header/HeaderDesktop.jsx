@@ -13,6 +13,7 @@ import { usePathname, useRouter } from "next/navigation";
 import Dropdown from "../Dropdown/DropDown";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
+// import { useTranslation } from "next-i18next";/
 // import { useRouter } from "next/router";
 
 export default function HeaderDesktop({ href }) {
@@ -43,6 +44,7 @@ export default function HeaderDesktop({ href }) {
   const currentRoute = usePathname();
   const isProductsRoute = currentRoute === "/products" || currentRoute === "/products/liquefied" || currentRoute === "/products/petrol" || currentRoute === "/products/kerosene" || currentRoute === "/products/lubricants";
 
+  // const { t } = useTranslation();
 
   return (
     <header className=" fixed z-10 w-full top-0">
@@ -92,6 +94,7 @@ export default function HeaderDesktop({ href }) {
             }
           >
             Home
+            {/* {t('app_title')} */}
           </Link>
           <Link
             href="/about"

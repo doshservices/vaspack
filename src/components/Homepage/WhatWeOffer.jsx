@@ -196,7 +196,7 @@ export default function WhatWeOffer() {
           >
             {OfferMap.map(({ background, title, cardText, cardTitle, key, link }) => (
               <div key={key}>
-                <SwiperSlide>
+                <SwiperSlide key={key}>
                   <div className=" flex justify-between text-[0.9rem] sm:text-base font-medium mt-8 ">
                     <h3 className="border-t-[4px] w-full border-solid border-OtherGreen pt-2 sm:pt-4">
                       {title}

@@ -17,11 +17,13 @@ import "swiper/css/effect-fade";
 // import required modules
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import HeroSwiperNav from "./HeroSwiperNav";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
+// import { useTranslation } from "next-translate";
+
 
 export default function Hero() {
 
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   
   const HeroMap = [
     {
@@ -74,8 +76,8 @@ export default function Hero() {
         className="mySwiper"
         onSwiper={(swiper) => (swiperRef.current = swiper)}
       >
-        {HeroMap.map(({ background }) => (
-          <div className="">
+        {HeroMap.map(({ background, key }) => (
+          <div className="" key={key}>
             <SwiperSlide key={background}>
               <div
                 className={`${background} mx-[0%] text-center sm:text-left sm:mx-[5%] text-NormalWhite h-[30rem] ssm:h-[34rem] sm:h-[50vh] lg:h-[65vh] xl:h-[80vh] xxl:h-[75vh] flex items-end sm:items-end pb-28 sm:pb-5 px-[3%] sm:px-[1.5%] `}
