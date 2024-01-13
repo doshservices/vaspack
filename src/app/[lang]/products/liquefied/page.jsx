@@ -1,8 +1,8 @@
-import Header from '@/components/Header/Header'
+import Header from './components/Header/Header'
 import React from 'react'
 import ProductsHero from '../components/ProductsHero'
 import ProductsBody from '../components/ProductsBody'
-import Footer from '@/components/Footer/Footer'
+import Footer from './components/Footer/Footer'
 
 
 export default function page() {

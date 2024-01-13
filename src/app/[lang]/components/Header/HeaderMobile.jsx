@@ -7,11 +7,11 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import sms from "../../assets/Icons/sms.png";
-import careers from "../../assets/Icons/careers.png";
-import call from "../../assets/Icons/call.png";
-import language from "../../assets/Icons/language.png";
-import logo from "../../assets/Logo/vasplogo1.svg";
+// import sms from "../../assets/Icons/sms.png";
+// import careers from "../../assets/Icons/careers.png";
+// import call from "../../assets/Icons/call.png";
+// import language from "../../assets/Icons/language.png";
+import logo from "../../../assets/Logo/vasplogo1.svg";
 import Dropdown from "../Dropdown/DropDown";
 import DropdownOther from "../Dropdown/DropDown";
 
