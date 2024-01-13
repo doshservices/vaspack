@@ -86,7 +86,7 @@ export default function Hero() {
                   <h1 className=" px-[10%] sm:px-0 text-[1.2rem] ssm:text-[1.4rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem] xl:text-[1.7rem] leading-[181%] font-semibold sm:font-bold ">
                     We are an Integrated Energy Company
                   </h1>
-                  <p className=" px-[3%] sm:px-0 text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.75rem] md:text-[0.8rem] lg:text-[0.85rem] xl:text-[0.9rem] font-normal sm:font-medium leading-[200%] mt-6 sm:mt-4 ">
+                  <p className=" px-[3%] text-justify sm:px-0 text-[0.8rem] ssm:text-[0.9rem] sm:text-[0.75rem] md:text-[0.8rem] lg:text-[0.85rem] xl:text-[0.9rem] font-normal sm:font-medium leading-[200%] mt-6 sm:mt-4 ">
                     {/* {t ('hero_text') } */}
                     Vaspack Energy Limited is an indigenous downstream companyin the Oil & Gas sector with interests in procurement,marketing and distribution of Petroleum Products (Automotive Gas Oil (AGO), Premium Motor Spirit (PMS) and Liquefied Petroleum Gas (LPG); using innovative technology
                   </p>
@@ -100,7 +100,7 @@ export default function Hero() {
       {/* navigation bar */}
       <div className="z-[5] ml-[50%] sm:ml-[0%] translate-x-[-50%] sm:translate-x-none absolute text-OtherBlack bottom-[-0.5%] ssm:bottom-[1.5%] sm:bottom-[-1.5%] lg:bottom-0 xl:bottom-[-1%] left-[0%] sm:left-auto right-auto sm:right-[18%] md:right-[20%] lg:right-[24%] ">
         <div className="flex gap-3 py-[3vh]  sm:gap-3 ssm:py-[2vh] sm:py-[2.5vh] md:py-[2vh] lg:gap-3 xl:py-[3vh]">
-        <div className="cursor-pointer px-2 py-2 rounded-full bg-[#848584] hover:text-OtherWhite hover:bg-Secondary" onClick={goToPreviousSlide}>
+        <div className="cursor-pointer px-2 py-2 rounded-full bg-[#8BDA27] hover:text-OtherWhite hover:bg-Secondary" onClick={goToPreviousSlide}>
             <IoChevronBack    className=" text-[1.3rem] lg:text-[1.2rem] font-semibold " />
           </div>
           <div className="cursor-pointer px-2 py-2 rounded-full bg-[#8BDA27] hover:text-OtherWhite hover:bg-Secondary" onClick={goToNextSlide}>

@@ -55,9 +55,6 @@ export default function Footer() {
             <li>
               <Link href="/sustainability" className=" hover:text-OtherGreen">Sustainability</Link>
             </li>
-            <li>
-              <Link href="/" className=" hover:text-OtherGreen">Locations</Link>
-            </li>
           </ul>
         </div>
 
@@ -95,7 +92,7 @@ export default function Footer() {
       </section>
 
       <section className="top-border bg-Gray px-[3%] py-2 md:py-4 flex flex-col sm:flex-row items-center justify-between text-[0.7rem] sm:text-[0.6rem] md:text-[0.7rem] lg:text-[0.75rem] xl:text-[0.8rem] font-medium leading-[112%]  ">
-        <p>Terms and Conditions</p>
+        <Link href="/"  className="hover:text-OtherGreen">Terms and Conditions</Link>
 
         {/* desktop */}
         <p className=" hidden sm:block">© Copyright {currentYear} Vaspack Energy Limited. All rights reserved.</p>
