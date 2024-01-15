@@ -51,7 +51,7 @@ const DropdownOther2 = () => {
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
               role="menuitem"
             >
-              Option 1
+              Sales
             </p>
             <p
               onClick={() => handleOptionClick("Option 2")}
@@ -60,13 +60,7 @@ const DropdownOther2 = () => {
             >
               Option 2
             </p>
-            <p
-              onClick={() => handleOptionClick("Option 3")}
-              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
-              role="menuitem"
-            >
-              Option 3
-            </p>
+            
           </div>
         </div>
       )}

@@ -32,7 +32,7 @@ export default function ContactForm() {
           placeholder="Message"
         ></textarea>
 
-        <div className=" mt-7 px-[2%] font-medium text-[0.9rem] leading-[140%] tracking-[0.199px]">
+        <div className=" mt-7  font-medium text-[0.9rem] leading-[140%] tracking-[0.199px]">
           <h3 className=" font-bold">Privacy Statement</h3>
           <p className="leading-[140%] mt-1 sm:mt-1 ">
             Vaspack Energy is committed to protecting and respecting your
@@ -43,7 +43,7 @@ export default function ContactForm() {
           </p>
         </div>
 
-        <div className="mt-2 px-[2%] flex items-center gap-3 font-medium text-[0.8rem] tracking-[0.199px] ">
+        <div className="mt-2  flex items-center gap-3 font-medium text-[0.8rem] tracking-[0.199px] ">
           <input type="checkbox" name="checkbox" id="checkbox" />
           <label htmlFor="checkbox" className=" cursor-pointer">I understand and agree</label>
         </div>

@@ -51,21 +51,35 @@ const DropdownOther = () => {
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
               role="menuitem"
             >
-              Option 1
+              Automotive
             </p>
             <p
               onClick={() => handleOptionClick("Option 2")}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
               role="menuitem"
             >
-              Option 2
+              Liquefied
             </p>
             <p
               onClick={() => handleOptionClick("Option 3")}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
               role="menuitem"
             >
-              Option 3
+              Petrol
+            </p>
+            <p
+              onClick={() => handleOptionClick("Option 3")}
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
+              role="menuitem"
+            >
+              Kerosene
+            </p>
+            <p
+              onClick={() => handleOptionClick("Option 3")}
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
+              role="menuitem"
+            >
+              Lubricants
             </p>
           </div>
         </div>

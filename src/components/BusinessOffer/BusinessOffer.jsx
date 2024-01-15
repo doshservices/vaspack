@@ -13,7 +13,7 @@ export default function BusinessOffer({title, text, background, ButtonText, link
         <div className=" w-full sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] xxl:w-[60%] flex flex-col  justify-end gap-4 sm:gap-4 md:gap-4 lg:gap-7 ">
           <div>
             <h2 className=" text-[1.2rem] sm:text-[1.3rem] lg:text-[1.4rem] font-semibold leading-[145%] ">{title} </h2>
-            <p className="mt-3 lg:mt-4 text-[0.8rem] text-center sm:text-left lg:text-[0.9rem] font-medium leading-[170%] ssm:leading-[190%] sm:leading-[214%] ">
+            <p className="mt-3 lg:mt-4 text-[0.8rem] text-center sm:text-justify lg:text-[0.9rem] font-medium leading-[170%] ssm:leading-[190%] sm:leading-[214%] ">
               {text}
             </p>
           </div>
