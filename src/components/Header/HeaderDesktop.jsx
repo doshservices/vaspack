@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import { FaBeer } from 'react-icons/fa';
 import sms from "../../assets/Icons/sms.png";
 import careers from "../../assets/Icons/careers.png";
@@ -13,6 +13,7 @@ import { usePathname, useRouter } from "next/navigation";
 import Dropdown from "../Dropdown/DropDown";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
+import TextTransition, { presets } from "react-text-transition";
 // import { useTranslation } from "next-i18next";/
 // import { useRouter } from "next/router";
 
@@ -46,6 +47,20 @@ export default function HeaderDesktop({ href }) {
 
   // const { t } = useTranslation();
 
+  const oilPrice = "VSP $33.79"
+
+  const TEXTS = [oilPrice, 'Common', 'Awesome', 'Delicious'];
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      2000, // every 2 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <header className=" fixed z-10 w-full top-0">
       <section className=" bg-Primary text-OtherWhite leading-[0%] text-[0.65rem] lg:text-[0.75rem] xl:text-[0.8rem] font-semibold flex items-center justify-between px-[5%] py-[0.5rem] ">
@@ -72,7 +87,8 @@ export default function HeaderDesktop({ href }) {
             </div>
           </div>
           <div className="w-full ">
-            <p>VSP $33.79</p>
+            {/* <p>VSP $33.79</p> */}
+            <TextTransition springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
           </div>
           <div className="flex gap-1 items-center w-full  ">
             <p>English</p>
