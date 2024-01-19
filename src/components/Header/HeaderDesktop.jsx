@@ -47,9 +47,9 @@ export default function HeaderDesktop({ href }) {
 
   // const { t } = useTranslation();
 
-  const oilPrice = "VSP $33.79"
+  // const oilPrice = "VSP $33.79"
 
-  const TEXTS = [oilPrice, 'Common', 'Awesome', 'Delicious'];
+  const TEXTS = ['AGO-$4.56 ', 'PMS-$2.86', 'JET-$83.7'];
 
   const [index, setIndex] = useState(0);
 
