@@ -4,7 +4,7 @@
 // components/HeaderMobile.js
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import sms from "../../assets/Icons/sms.png";
@@ -14,6 +14,7 @@ import language from "../../assets/Icons/language.png";
 import logo from "../../assets/Logo/vasplogo1.svg";
 import Dropdown from "../Dropdown/DropDown";
 import DropdownOther from "../Dropdown/DropDown";
+import TextTransition, { presets } from "react-text-transition";
 
 const HeaderMobile = ({ options, selectedValue, onSelect }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +30,18 @@ const HeaderMobile = ({ options, selectedValue, onSelect }) => {
     router.push(link);
   };
 
+  const TEXTS = ['AGO-$4.56 ', 'PMS-$2.86', 'JET-$83.7'];
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      5000, // every 2 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <div className="relative md:hidden">
       {/* Mobile Header */}
@@ -38,7 +51,9 @@ const HeaderMobile = ({ options, selectedValue, onSelect }) => {
             <Image src={logo} alt="Vaspack Logo" className="w-full" />
           </Link>
           <section className=" flex items-center gap-4">
-            <p className=" text-[0.8rem] ">BKR $33.79</p>
+            <div className=" text-[0.8rem] ">
+            <TextTransition springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
+            </div>
             <button onClick={toggleMenu} className="">
               {isOpen ? (
                 <svg

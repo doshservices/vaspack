@@ -56,7 +56,7 @@ export default function HeaderDesktop({ href }) {
   useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
-      2000, // every 2 seconds
+      5000, // every 2 seconds
     );
     return () => clearTimeout(intervalId);
   }, []);
