@@ -37,7 +37,7 @@ const HeaderMobile = ({ options, selectedValue, onSelect }) => {
   useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
-      5000, // every 2 seconds
+      5000, // every 5 seconds
     );
     return () => clearTimeout(intervalId);
   }, []);
