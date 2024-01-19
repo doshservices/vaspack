@@ -49,14 +49,14 @@ export default function HeaderDesktop({ href }) {
 
   // const oilPrice = "VSP $33.79"
 
-  const TEXTS = ['AGO-$4.56 ', 'PMS-$2.86', 'JET-$83.7'];
+  const TEXTS = ['AGO $33.79/Gal ', 'PMS $2.86/Gal', 'JET $83.7/Gal'];
 
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
-      5000, // every 2 seconds
+      2000, // every 2 seconds
     );
     return () => clearTimeout(intervalId);
   }, []);
@@ -79,7 +79,7 @@ export default function HeaderDesktop({ href }) {
           </div>
         </div>
 
-        <div className=" flex w-[40%] md:w-[35%] lg:w-[30%] xl:w-[25%] items-center justify-between gap-6 ">
+        <div className=" flex w-[43%] md:w-[38%] lg:w-[32%] xl:w-[30%] items-center justify-end gap-2  ">
           <div className="flex gap-1 items-center w-full  ">
             <p>Careers</p>
             <div className="w-[20%] ">
@@ -89,6 +89,7 @@ export default function HeaderDesktop({ href }) {
           <div className="w-full ">
             {/* <p>VSP $33.79</p> */}
             <TextTransition springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
+           
           </div>
           <div className="flex gap-1 items-center w-full  ">
             <p>English</p>

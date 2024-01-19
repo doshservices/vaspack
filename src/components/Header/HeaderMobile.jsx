@@ -30,7 +30,7 @@ const HeaderMobile = ({ options, selectedValue, onSelect }) => {
     router.push(link);
   };
 
-  const TEXTS = ['AGO-$4.56 ', 'PMS-$2.86', 'JET-$83.7'];
+  const TEXTS = ['AGO $4.56/Gal ', 'PMS-$2.86/Gal', 'JET-$83.7/Gal'];
 
   const [index, setIndex] = useState(0);
 
@@ -50,8 +50,8 @@ const HeaderMobile = ({ options, selectedValue, onSelect }) => {
           <Link href="/" className=" w-[30%]">
             <Image src={logo} alt="Vaspack Logo" className="w-full" />
           </Link>
-          <section className=" flex items-center gap-4">
-            <div className=" text-[0.8rem] ">
+          <section className=" flex items-center gap-2">
+            <div className=" text-[0.8rem] flex items-center ">
             <TextTransition springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
             </div>
             <button onClick={toggleMenu} className="">

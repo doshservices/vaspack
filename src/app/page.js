@@ -13,6 +13,7 @@ import VaspackInNumbers from "@/components/Homepage/VaspackInNumbers";
 
 export default function Home() {
   return (
+    
     <body>
       {/* <Suspense fallback={null}> */}
         <Header />
