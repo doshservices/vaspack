@@ -30,7 +30,7 @@ const HeaderMobile = ({ options, selectedValue, onSelect }) => {
     router.push(link);
   };
 
-  const TEXTS = ['AGO $4.56/Gal ', 'PMS-$2.86/Gal', 'JET-$83.7/Gal'];
+  const TEXTS = ['AGO $4.56/Gal ', 'PMS-$2.86/Gal', 'JET-$83.7/BBL'];
 
   const [index, setIndex] = useState(0);
 

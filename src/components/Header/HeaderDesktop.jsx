@@ -49,7 +49,7 @@ export default function HeaderDesktop({ href }) {
 
   // const oilPrice = "VSP $33.79"
 
-  const TEXTS = ['AGO $33.79/Gal ', 'PMS $2.86/Gal', 'JET $83.7/Gal'];
+  const TEXTS = ['AGO $33.79/Gal ', 'PMS $2.86/Gal', 'JET $83.7/BBL'];
 
   const [index, setIndex] = useState(0);
 
