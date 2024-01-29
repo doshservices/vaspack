@@ -13,6 +13,8 @@ import { usePathname, useRouter } from "next/navigation";
 import Dropdown from "../Dropdown/DropDown";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
+import { GoArrowUpRight } from "react-icons/go";
+import { TfiImage, TfiWorld } from "react-icons/tfi";
 import TextTransition, { presets } from "react-text-transition";
 // import { useTranslation } from "next-i18next";/
 // import { useRouter } from "next/router";
@@ -82,9 +84,12 @@ export default function HeaderDesktop({ href }) {
         <div className=" flex w-[43%] md:w-[38%] lg:w-[32%] xl:w-[30%] items-center justify-end gap-2  ">
           <div className="flex gap-1 items-center w-full  ">
             <p>Careers</p>
-            <div className="w-[20%] ">
-              <Image alt="icon" className="w-full " src={careers} />
+            <div className=" text-[1.1rem]">
+            <GoArrowUpRight />
             </div>
+            {/* <div className="w-[20%] ">
+              <Image alt="icon" className="w-full " src={careers} />
+            </div> */}
           </div>
           <div className="w-full ">
             {/* <p>VSP $33.79</p> */}
@@ -93,8 +98,11 @@ export default function HeaderDesktop({ href }) {
           </div>
           <div className="flex gap-1 items-center w-full  ">
             <p>English</p>
-            <div className="w-[20%] ">
+            {/* <div className="w-[20%] ">
               <Image alt="icon" className="w-full " src={language} />
+            </div> */}
+            <div className=" text-[1.1rem]">
+            <TfiWorld />
             </div>
           </div>
         </div>

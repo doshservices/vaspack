@@ -47,7 +47,7 @@ export default function VaspackInNumbers() {
           </h3>
           <p className=" font-medium ">Years of Experience</p>
         </div>
-        <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-5 justify-center items-center border-solid border-y-[1px]  border-OtherWhite  sm:border-x-[1px]  ">
+        <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-5 justify-center items-center border-solid border-y-[1px] sm:border-y-[0]  border-OtherWhite  sm:border-x-[1px]  ">
           <div>
             <Image src={truck} className=" w-full" alt="Experience Icon" />
           </div>

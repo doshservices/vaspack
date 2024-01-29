@@ -60,151 +60,151 @@ body {
   border-top: 1px solid rgba(45, 45, 45, 0.10); */
 }
 .home-hero {
-  background-image: url("../components/Homepage/assets/Home1.png");
+  background-image: url("../components/Homepage/assets/Home1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home-hero2 {
-  background-image: url("../components/Homepage/assets/Home2.png");
+  background-image: url("../components/Homepage/assets/Home2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home-hero3 {
-  background-image: url("../components/Homepage/assets/Home3.png");
+  background-image: url("../components/Homepage/assets/Home3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home-hero4 {
-  background-image: url("../components/Homepage/assets/Home4.png");
+  background-image: url("../components/Homepage/assets/Home4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.what-we-offer {
+/* .what-we-offer {
   background-image: url("../components/Homepage/assets/Home4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .contact-hero {
-  background-image: url("../app/contact/assets/Hero\ Section\ \(3\).png");
+  background-image: url("../app/contact/assets/HeroSection.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .news-hero {
-  background-image: url("../app/news//assets/news.png");
+  background-image: url("../app/news//assets/news.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .automotive-hero {
-  background-image: url("../app/products/assets/automotive.png");
+  background-image: url("../app/products/assets/automotive.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .petrol-hero {
-  background-image: url("../app/products/assets/petrol.png");
+  background-image: url("../app/products/assets/petrol.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .kerosene-hero {
-  background-image: url("../app/products/assets/kerosene.png");
+  background-image: url("../app/products/assets/kerosene.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .lubricants-hero {
-  background-image: url("../app/products/assets/lubricants.png");
+  background-image: url("../app/products/assets/lubricants.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .liquefied-hero {
-  background-image: url("../app/products/assets/liquefied.png");
+  background-image: url("../app/products/assets/liquefied.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .agriculture-industry {
-  background-image: url("../app/products/assets/Agriculture.png");
+  background-image: url("../app/products/assets/Agriculture.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .logistics-industry {
-  background-image: url("../app/products/assets/Logistics.png");
+  background-image: url("../app/products/assets/Logistics.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .commercial-industry {
-  background-image: url("../app/products/assets/Commercial.png");
+  background-image: url("../app/products/assets/Commercial.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .small-business-industry {
-  background-image: url("../app/products/assets/Business.png");
+  background-image: url("../app/products/assets/Business.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .industrial-industry {
-  background-image: url("../app/products/assets/Industrial.png");
+  background-image: url("../app/products/assets/Industrial.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .residential-industry {
-  background-image: url("../app/products/assets/Residential.png");
+  background-image: url("../app/products/assets/Residential.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .our-business {
-  background-image: url("../app//about/assets/Automotive\ Gas\ Oil.png");
+  background-image: url("../app//about/assets/Automotive\ Gas\ Oil.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .mission {
-  background-image: url("../app//about/assets/Mission.png");
+  background-image: url("../app//about/assets/Mission.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .vision {
-  background-image: url("../app//about/assets/Visoon.png");
+  background-image: url("../app//about/assets/Visoon.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .about-hero {
-  background-image: url("../app//about/assets/Hero.png");
+  background-image: url("../app//about/assets/Hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .news1-background {
-  background-image: url("../app/news/assets/news1.png");
+  background-image: url("../app/news/assets/news1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .news2-background {
-  background-image: url("../app/news/assets/news2.png");
+  background-image: url("../app/news/assets/news2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .news3-background {
-  background-image: url("../app/news/assets/news3.png");
+  background-image: url("../app/news/assets/news3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,7 +222,7 @@ body {
   background-size: cover;
 }
 .update1 {
-  background-image: url("../app/news/assets/update1.png");
+  background-image: url("../app/news/assets/update1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,37 +234,37 @@ body {
   background-size: cover;
 }
 .update3 {
-  background-image: url("../app/news/assets/update3.png");
+  background-image: url("../app/news/assets/update3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .automotive {
-  background-image: url("../components/Homepage/assets/automotive.png");
+  background-image: url("../components/Homepage/assets/automotive.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .kerosene {
-  background-image: url("../components/Homepage/assets/Kerosene.png");
+  background-image: url("../components/Homepage/assets/Kerosene.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .petrol {
-  background-image: url("../components/Homepage/assets/Petrol.png");
+  background-image: url("../components/Homepage/assets/Petrol.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .liquefied {
-  background-image: url("../components/Homepage/assets/Liquefied.png");
+  background-image: url("../components/Homepage/assets/Liquefied.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .lubricants {
-  background-image: url("../components/Homepage/assets/Lubricants.png");
+  background-image: url("../components/Homepage/assets/Lubricants.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -339,73 +339,73 @@ body {
     /* margin: 0 0.5rem !important; */
   }
   .home-hero {
-    background-image: url("../components/Homepage/assets/Home1sss.png");
+    background-image: url("../components/Homepage/assets/Home1.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .home-hero2 {
-    background-image: url("../components/Homepage/assets/Home2.png");
+    background-image: url("../components/Homepage/assets/Home2.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .home-hero3 {
-    background-image: url("../components/Homepage/assets/Home3.png");
+    background-image: url("../components/Homepage/assets/Home3.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .home-hero4 {
-    background-image: url("../components/Homepage/assets/Home4.png");
+    background-image: url("../components/Homepage/assets/Home4.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .automotive-hero {
-  background-image: url("../app/products/assets/automotivesss.png");
+  background-image: url("../app/products/assets/automotivesss.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .petrol-hero {
-  background-image: url("../app/products/assets/Petrolsss.png");
+  background-image: url("../app/products/assets/Petrolsss.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .kerosene-hero {
-  background-image: url("../app/products/assets/Kerosenesss.png");
+  background-image: url("../app/products/assets/Kerosenesss.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .lubricants-hero {
-  background-image: url("../app/products/assets/lubricantssss.png");
+  background-image: url("../app/products/assets/lubricantssss.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .liquefied-hero {
-  background-image: url("../app/products/assets/Liquefiedsss.png");
+  background-image: url("../app/products/assets/Liquefiedsss.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .about-hero {
-  background-image: url("../app//about/assets/Aboutsss.png");
+  background-image: url("../app//about/assets/Aboutsss.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .contact-hero {
-  background-image: url("../app/contact/assets/Contact.png");
+  background-image: url("../app/contact/assets/Contact.jpg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .news-hero {
-  background-image: url("../app/news//assets/newsss.png");
+  background-image: url("../app/news//assets/newsss.jpg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;

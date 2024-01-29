@@ -14,6 +14,8 @@ import language from "../../assets/Icons/language.png";
 import logo from "../../assets/Logo/vasplogo1.svg";
 import Dropdown from "../Dropdown/DropDown";
 import DropdownOther from "../Dropdown/DropDown";
+import { GoArrowUpRight } from "react-icons/go";
+import { TfiImage, TfiWorld } from "react-icons/tfi";
 import TextTransition, { presets } from "react-text-transition";
 
 const HeaderMobile = ({ options, selectedValue, onSelect }) => {
