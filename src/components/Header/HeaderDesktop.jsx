@@ -10,7 +10,7 @@ import Dropdown from "../Dropdown/DropDown";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { GoArrowUpRight } from "react-icons/go";
-import { TfiImage, TfiWorld } from "react-icons/tfi";
+import { TfiWorld } from "react-icons/tfi";
 import TextTransition, { presets } from "react-text-transition";
 import { NavLink } from "react-router-dom";
 // import { useTranslation } from "next-i18next";/
@@ -110,7 +110,7 @@ export default function HeaderDesktop({ to}) {
             to="/"
             className="border-none hover:text-OtherGreen pb-1"
           >
-            Home
+            <p className=" leading-[200%] ">Home</p>
             {/* {t('app_title')} */}
           </NavLink>
           {/* <NavLink
@@ -127,7 +127,7 @@ export default function HeaderDesktop({ to}) {
             to="/about"
             className="border-none hover:text-OtherGreen pb-1"
           >
-            About us
+            <p className=" leading-[200%] ">About us</p>
           </NavLink>
 
           <div
@@ -159,20 +159,20 @@ export default function HeaderDesktop({ to}) {
             to="/news"
             className="border-none hover:text-OtherGreen pb-1"
           >
-            News and Insights
+            <p className=" leading-[200%] ">News and Insights</p>
           </NavLink>
           <NavLink
             to="/sustainability"
             className="border-none hover:text-OtherGreen pb-1"
           >
             {/* {currentRoute} */}
-            Sustainability
+            <p className=" leading-[200%] ">Sustainability</p>
           </NavLink>
           <NavLink
             to="/contact"
             className="border-none hover:text-OtherGreen pb-1"
           >
-            Contact Us
+            <p className=" leading-[200%] ">Contact Us</p>
           </NavLink>
         </div>
       </section>
