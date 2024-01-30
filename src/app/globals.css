@@ -14,10 +14,7 @@ body {
   border-bottom: solid 3px #0A8E26;
   color: #0A8E26;
 }
-.dropdown .active p{
-  border-bottom: solid 3px #0A8E26;
-  color: #0A8E26;
-}
+
 .mySwiper{
   background: transparent;
   padding-bottom: 7vh;

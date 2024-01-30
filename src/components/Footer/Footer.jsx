@@ -64,14 +64,14 @@ export default function Footer() {
                 {/* <img src={call} className=" w-full " /> */}
                 <IoCall />
               </div>
-              <Link className="hover:text-OtherGreen" to="tel:+2349095750443">+234 909 575 0443</Link>
+              <Link className="hover:text-Primary" to="tel:+2349095750443">+234 909 575 0443</Link>
             </div>
             <div className="flex gap-2 ssm:gap-2 justify-center sm:justify-start items-center ">
               <div className=" text-Primary text-[1.1rem] ">
                 {/* <img src={sms} className=" w-full " /> */}
                 <MdEmail />
               </div>
-              <Link className="hover:text-OtherGreen" to="mailto:sales@vaspackenergy.com">sales@vaspackenergy.com</Link>
+              <Link className="hover:text-Primary" to="mailto:sales@vaspackenergy.com">sales@vaspackenergy.com</Link>
             </div>
             <div className="flex gap-2 ssm:gap-2  justify-center sm:justify-start items-start lg:items-center ">
               <div className=" text-Primary text-[1.1rem] pt-1  ">
