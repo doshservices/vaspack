@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +21,7 @@ const Dropdown = () => {
           type="button"
           onClick={toggleDropdown}
           //   focus:ring focus:border-OtherGreen
-          className=" w-full hover:text-OtherGreen py-6 sm:py-0 flex items-center justify-between sm:justify-start border-solid border-[#2d2d2d33] border-b-[1px] sm:border-none text-left text-OtherBlack text-[1rem] sm:text-[0.6rem] md:text-[0.65rem]  lg:text-[0.85rem] xl:text-[0.9rem]   "
+          className=" w-full hover:text-OtherGreen py-6 sm:py-0 flex items-center justify-between sm:justify-start border-solid active:text-Secondary border-[#2d2d2d33] border-b-[3px] sm:border-none text-left text-OtherBlack text-[1rem] sm:text-[0.6rem] md:text-[0.65rem]  lg:text-[0.85rem] xl:text-[0.9rem]   "
         >
           {selectedOption ? selectedOption : "Product and Services"}
           <svg
@@ -47,46 +47,46 @@ const Dropdown = () => {
             aria-orientation="vertical"
             aria-labelledby="options-menu"
           >
-            <Link
+            <NavLink
               to="/products"
               onClick={() => handleOptionClick("Automotive")}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
               role="menuitem"
             >
-              Automotive
-            </Link>
-            <Link
+              <p>Automotive</p>
+            </NavLink>
+            <NavLink
               to="/products/liquefied"
               onClick={() => handleOptionClick("Liquefied")}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
               role="menuitem"
             >
-              Liquefied
-            </Link>
-            <Link
+              <p>Liquefied</p>
+            </NavLink>
+            <NavLink
               to="/products/petrol"
               onClick={() => handleOptionClick("Petrol")}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
               role="menuitem"
             >
-              Petrol
-            </Link>
-            <Link
+              <p>Petrol</p>
+            </NavLink>
+            <NavLink
               to="/products/kerosene"
               onClick={() => handleOptionClick("Kerosene")}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
               role="menuitem"
             >
-              Kerosene
-            </Link>
-            <Link
+              <p>Kerosene</p>
+            </NavLink>
+            <NavLink
               to="/products/lubricants"
               onClick={() => handleOptionClick("Lubricants")}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
               role="menuitem"
             >
-              Lubricants
-            </Link>
+              <p>Lubricants</p>
+            </NavLink>
           </div>
         </div>
       )}
