@@ -1,0 +1,473 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.active {
+  /* border: solid 3px #0A8E26; */
+  color: #0A8E26;
+}
+.mySwiper{
+  background: transparent;
+  padding-bottom: 7vh;
+  position: relative !important;
+}
+.swiper-pagination {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute !important;
+  left: 75% !important;
+  bottom: 13% !important;
+  background: #FFFFFF !important;
+  width: 18% !important;
+  border-radius: 8px !important;
+}
+.swiper-pagination-bullet {
+  border-radius: 0px !important;
+  background: #FFFFFF !important;
+  width: 25% !important;
+  box-shadow: 0 !important;
+  height: 0.4rem !important;
+  margin-top: -3rem;
+  /* opacity: 80% !important; */
+}
+.swiper-pagination-bullet-active {
+  border-radius: 8px !important;
+  background: #8BDA27 !important;
+  transform: scale(130%) !important;
+  /* width: 1rem !important; */
+  z-index: 10 !important;
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
+  gap: 0 !important;
+  /* margin: 0 0.5rem !important; */
+}
+body {
+  font-family: var(--font-montserrat);
+}
+.fff{
+  background-color: #2d2d2d33;
+}
+.header-bottom{
+  border-bottom: 1px solid rgba(45, 45, 45, 0.10);
+}
+.top-border{
+  border: 1px solid rgba(45, 45, 45, 0.10);
+  /* border-top: 1px solid rgba(45, 45, 45, 0.10);
+  border-top: 1px solid rgba(45, 45, 45, 0.10); */
+}
+.home-hero {
+  background-image: url("../components/Homepage/assets/Home1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-hero2 {
+  background-image: url("../components/Homepage/assets/Home2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-hero3 {
+  background-image: url("../components/Homepage/assets/Home3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-hero4 {
+  background-image: url("../components/Homepage/assets/Home4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .what-we-offer {
+  background-image: url("../components/Homepage/assets/Home4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.contact-hero {
+  background-image: url("../app/contact/assets/HeroSection.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news-hero {
+  background-image: url("../app/news//assets/news.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.automotive-hero {
+  background-image: url("../app/products/assets/automotive.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.petrol-hero {
+  background-image: url("../app/products/assets/petrol.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kerosene-hero {
+  background-image: url("../app/products/assets/kerosene.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lubricants-hero {
+  background-image: url("../app/products/assets/lubricants.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.liquefied-hero {
+  background-image: url("../app/products/assets/liquefied.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.agriculture-industry {
+  background-image: url("../app/products/assets/Agriculture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logistics-industry {
+  background-image: url("../app/products/assets/Logistics.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.commercial-industry {
+  background-image: url("../app/products/assets/Commercial.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.small-business-industry {
+  background-image: url("../app/products/assets/Business.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.industrial-industry {
+  background-image: url("../app/products/assets/Industrial.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.residential-industry {
+  background-image: url("../app/products/assets/Residential.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our-business {
+  background-image: url("../app//about/assets/Automotive.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mission {
+  background-image: url("../app//about/assets/Mission.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vision {
+  background-image: url("../app//about/assets/Visoon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-hero {
+  background-image: url("../app//about/assets/Hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news1-background {
+  background-image: url("../app/news/assets/news1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news2-background {
+  background-image: url("../app/news/assets/news2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news3-background {
+  background-image: url("../app/news/assets/news3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.truck-background {
+  background-image: url("../components/Homepage/assets//Truck\ Fleet.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.storage-background {
+  background-image: url("../components/Homepage/assets/Storage\ Capacity.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.update1 {
+  background-image: url("../app/news/assets/update1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.update2 {
+  background-image: url("../components/Homepage/assets/News.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.update3 {
+  background-image: url("../app/news/assets/update3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.automotive {
+  background-image: url("../components/Homepage/assets/automotive.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kerosene {
+  background-image: url("../components/Homepage/assets/Kerosene.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.petrol {
+  background-image: url("../components/Homepage/assets/Petrol.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.liquefied {
+  background-image: url("../components/Homepage/assets/Liquefied.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lubricants {
+  background-image: url("../components/Homepage/assets/Lubricants.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.instagram:hover {
+  color: #ee2a7b;
+  /* color: #0A8E26; */
+}
+@media screen and (max-width: 1279px){
+  .swiper-pagination {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute !important;
+    left: 78% !important;
+    bottom: 15% !important;
+    background: #FFFFFF !important;
+    width: 15% !important;
+    border-radius: 8px !important;
+  }
+}
+@media screen and (max-width: 1023px){
+  .swiper-pagination {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute !important;
+    left: 78% !important;
+    bottom: 15% !important;
+    background: #FFFFFF !important;
+    width: 15% !important;
+    border-radius: 8px !important;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 0px !important;
+    background: #FFFFFF !important;
+    width: 25% !important;
+    box-shadow: 0 !important;
+    height: 0.5rem !important;
+    margin-top: -3rem;
+    /* opacity: 80% !important; */
+  }
+  .swiper-pagination-bullet-active {
+    border-radius: 8px !important;
+    background: #8BDA27 !important;
+    transform: scale(130%) !important;
+    /* width: 1rem !important; */
+    z-index: 10 !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    gap: 0 !important;
+    /* margin: 0 0.5rem !important; */
+  }
+}
+
+@media screen and (max-width: 767px){
+  .swiper-pagination {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute !important;
+    left: 78% !important;
+    bottom: 17% !important;
+    background: #FFFFFF !important;
+    width: 15% !important;
+    border-radius: 8px !important;
+  }
+}
+@media screen and (max-width: 639px){
+  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    position: absolute !important;
+    left: 0% !important;
+    margin: 0 25%;
+    bottom: 20% !important;
+    background: #FFFFFF !important;
+    width: 50% !important;
+    border-radius: 8px !important;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 0px !important;
+    background: #FFFFFF !important;
+    width: 25% !important;
+    box-shadow: 0 !important;
+    height: 0.45rem !important;
+    margin-top: -3rem;
+  }
+  .swiper-pagination-bullet-active {
+    border-radius: 8px !important;
+    background: #8BDA27 !important;
+    transform: scale(130%) !important;
+    /* width: 1rem !important; */
+    z-index: 10 !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    gap: 0 !important;
+    /* margin: 0 0.5rem !important; */
+  }
+  .home-hero {
+    background-image: url("../components/Homepage/assets/Home1.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .home-hero2 {
+    background-image: url("../components/Homepage/assets/Home2.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .home-hero3 {
+    background-image: url("../components/Homepage/assets/Home3.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .home-hero4 {
+    background-image: url("../components/Homepage/assets/Home4.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .automotive-hero {
+  background-image: url("../app/products/assets/automotivesss.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.petrol-hero {
+  background-image: url("../app/products/assets/Petrolsss.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kerosene-hero {
+  background-image: url("../app/products/assets/Kerosenesss.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lubricants-hero {
+  background-image: url("../app/products/assets/lubricantssss.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.liquefied-hero {
+  background-image: url("../app/products/assets/Liquefiedsss.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-hero {
+  background-image: url("../app//about/assets/Aboutsss.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-hero {
+  background-image: url("../app/contact/assets/Contact.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news-hero {
+  background-image: url("../app/news//assets/newsss.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+@media screen and (max-width: 419px){
+  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    position: absolute !important;
+    left: 0% !important;
+    margin: 0 25%;
+    bottom: 22% !important;
+    background: #FFFFFF !important;
+    width: 55% !important;
+    border-radius: 8px !important;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 0px !important;
+    background: #FFFFFF !important;
+    width: 25% !important;
+    box-shadow: 0 !important;
+    height: 0.45rem !important;
+    margin-top: -3rem;
+  }
+  .swiper-pagination-bullet-active {
+    border-radius: 8px !important;
+    background: #8BDA27 !important;
+    transform: scale(130%) !important;
+    /* width: 1rem !important; */
+    z-index: 10 !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    gap: 0 !important;
+    /* margin: 0 0.5rem !important; */
+  }
+}
