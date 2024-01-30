@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import HomePage from "./components/Homepage/HomePage";
+import About from "./app/about/page";
+import News from "./app/news/page";
+import Sustainability from "./app/sustainability/page";
+import Contact from "./app/contact/page";
+import './app/globals.css'
+import Products from "./app/products/page";
+import Kerosene from "./app/products/kerosene/page";
+import Lubricants from "./app/products/lubricants/page";
+import Liquefied from "./app/products/liquefied/page";
+import Petrol from "./app/products/petrol/page";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/products/liquefied" element={<Liquefied />} />
+          <Route path="/products/petrol" element={<Petrol />} />
+          <Route path="/products/kerosene" element={<Kerosene />} />
+          <Route path="/products/lubricants" element={<Lubricants />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/sustainability" element={<Sustainability />} />
+          <Route path="/contact" element={<Contact />} />
+
+          {/* <Route path="/redirect" element={ <Navigate to="/admin-homepage" /> }/> */}
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
