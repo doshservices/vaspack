@@ -10,10 +10,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-.active p{
+/* .active p{
   border-bottom: solid 3px #0A8E26;
   color: #0A8E26;
-}
+} */
 
 .mySwiper{
   background: transparent;
