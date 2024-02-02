@@ -38,7 +38,7 @@ export default function VaspackInNumbers() {
           </div>
           <h3 className="flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
             <span>
-              <AnimatedCounter start={0} end={2} duration={2} />
+              <AnimatedCounter start={0} end={15} duration={2} />
             </span>
             +
           </h3>
@@ -51,7 +51,7 @@ export default function VaspackInNumbers() {
           <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
             
             <span>
-              <AnimatedCounter start={0} end={10} duration={2} />
+              <AnimatedCounter start={0} end={100} duration={3} />
             </span>
           </h3>
           <div className=" text-center">

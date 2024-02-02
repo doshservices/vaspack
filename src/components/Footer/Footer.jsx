@@ -53,6 +53,9 @@ export default function Footer() {
             <li>
               <Link to="/sustainability" className=" hover:text-OtherGreen">Sustainability</Link>
             </li>
+            <li>
+              <Link to="/" className=" hover:text-OtherGreen">Commercial Terms</Link>
+            </li>
           </ul>
         </div>
 
@@ -95,33 +98,28 @@ export default function Footer() {
         {/* desktop */}
         <p className=" hidden sm:block">© Copyright {currentYear} Vaspack Energy Limited. All rights reserved.</p>
 
-        <div className=" w-[50%] text-[1.15rem] ssm:w-[50%] sm:w-[15%] py-4 sm:py-0 flex justify-center sm:justify-end gap-4 sm:gap-4 ">
+        {/* <div className=" w-[50%] text-[1.15rem] ssm:w-[50%] sm:w-[15%] py-4 sm:py-0 flex justify-center sm:justify-end gap-4 sm:gap-4 ">
           <div >
             <Link to="" className=" hover:text-[#0866FF]  ">
-              {/* <img src={facebook} alt="facebook logo" className=" w-full " /> */}
-              
               <FaFacebook />
             </Link>
           </div>
           <div className="  ">
           <Link to="" className=" hover:text-black ">
-              {/* <img src={twitter} alt="facebook logo" className=" w-full " /> */}
               <FaXTwitter />
             </Link>
           </div>
           <div className=" ">
           <Link to="" className=" instagram">
-              {/* <Image src={instagram} alt="facebook logo" className=" w-full " /> */}
               <FaInstagram />
             </Link>
           </div>
           <div className="  ">
           <Link to="" className="hover:text-[#FF0302] ">
-              {/* <Image src={youtube} alt="facebook logo" className=" w-full " /> */}
               <FaYoutube />
             </Link>
           </div>
-        </div>
+        </div> */}
 
         {/* mobile */}
         <p className=" text-center  block sm:hidden">© Copyright {currentYear} Vaspack Energy Limited. All rights reserved.</p>

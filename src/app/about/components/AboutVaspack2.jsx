@@ -17,7 +17,7 @@ export default function AboutVaspack2() {
           </h2> */}
           <hr className=" w-[30%] sm:w-[40%] lg:w-[65%] mx-auto sm:mx-0 border-solid border-[2px] border-OtherWhite " />
           <h2 className=" uppercase text-[1.2rem] sm:text-[0.9rem] md:text-[1.1rem]  lg:text-[1.2rem] xl:text-[1.5rem] mt-2 md:mt-4 font-semibold tracking-[0.199px] leading-[187%] ">
-          ABOUT VASPACK
+            ABOUT VASPACK
           </h2>
         </div>
         <p className=" mt-3 xl:mt-4 text-[0.9rem] sm:text-[0.9rem] text-justify  xl:text-[1rem] font-medium tracking-[0.199px] leading-[123%] ">
@@ -31,31 +31,39 @@ export default function AboutVaspack2() {
         <section className=" flex flex-col sm:flex-row justify-between  text-[0.9rem] sm:text-[0.8rem] md:text-[0.9rem] lg:text-[1.1rem] w-[100%] border-solid border-[1px] border-OtherWhite ">
           <div className=" flex py-7  border-solid border-r-[1px] border-OtherWhite w-full sm:w-[33.3%] flex-col gap-4 items-center">
             <div>
-              <img
-                src={experience}
-                className=" w-full"
-                alt="Experience Icon"
-              />
+              <img src={experience} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={2} duration={2} /></span>+</h3>
+            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
+              <span>
+              <AnimatedCounter start={0} end={15} duration={2} />
+              </span>
+              +
+            </h3>
             <p className=" font-medium ">Years of Experience</p>
           </div>
           <div className=" flex py-7 w-full border-y-[1px] border-solid border-OtherWhite sm:border-none sm:w-[33.3%] flex-col gap-4 items-center">
             <div>
               <img src={gas} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={20} duration={2} /></span>+</h3>
+            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
+              <span>
+                <AnimatedCounter start={0} end={22} duration={2} />
+              </span>
+              +
+            </h3>
             <p className=" font-medium ">Nationwide Depots</p>
           </div>
           <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-4 items-center border-solid border-x-[1px] border-OtherWhite ">
             <div>
               <img src={truck} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={0} end={10} duration={2} /></span></h3>
+            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
+              <span>
+                <AnimatedCounter start={0} end={100} duration={3} />
+              </span>
+            </h3>
             <div className=" text-center">
-              <p className=" leading-[20%] font-medium ">
-                Truck Fleet
-              </p>
+              <p className=" leading-[20%] font-medium ">Truck Fleet</p>
               <small className=" text-[0.7rem] sm:text-[0.55rem] md:text-[0.6rem] lg:text-[0.7rem] leading-[20%] mt-[0.3rem] font-medium ">
                 (Including specialized trucks)
               </small>
@@ -65,7 +73,12 @@ export default function AboutVaspack2() {
             <div>
               <img src={storage} className=" w-full" alt="Experience Icon" />
             </div>
-            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium "><span><AnimatedCounter start={1000} end={3048} duration={5} /></span>Km</h3>
+            <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
+              <span>
+                <AnimatedCounter start={1000} end={3048} duration={5} />
+              </span>
+              Km
+            </h3>
             <p className=" font-medium ">Storage Capacity</p>
           </div>
         </section>
