@@ -12,7 +12,7 @@ import { IoCall } from "react-icons/io5";
 import { GoArrowUpRight } from "react-icons/go";
 import { TfiWorld } from "react-icons/tfi";
 import TextTransition, { presets } from "react-text-transition";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 // import { useTranslation } from "next-i18next";/
 // import { useRouter } from "next/router";
 
@@ -40,13 +40,17 @@ export default function HeaderDesktop({ to}) {
   {
     /* Get the current route */
   }
-  // const currentRoute = useRoutes();
-  // const isProductsRoute = currentRoute === "/products" || currentRoute === "/products/liquefied" || currentRoute === "/products/petrol" || currentRoute === "/products/kerosene" || currentRoute === "/products/lubricants";
+  const currentLocation = useLocation();
+  const currentRoute = currentLocation.pathname;
 
-  // const { t } = useTranslation();
-
-  // const oilPrice = "VSP $33.79"
-
+  const isProductsRoute = [
+    '/products',
+    '/products/liquefied',
+    '/products/petrol',
+    '/products/kerosene',
+    '/products/lubricants',
+  ].includes(currentRoute);
+  
   const TEXTS = ['AGO $33.79/Gal ', 'PMS $2.86/Gal', 'JET $83.7/BBL'];
 
   const [index, setIndex] = useState(0);
@@ -83,9 +87,6 @@ export default function HeaderDesktop({ to}) {
             <div className=" text-[1.1rem]">
             <GoArrowUpRight />
             </div>
-            {/* <div className="w-[20%] ">
-              <Image alt="icon" className="w-full " src={careers} />
-            </div> */}
           </div>
           <div className="w-full ">
             {/* <p>VSP $33.79</p> */}
@@ -94,9 +95,6 @@ export default function HeaderDesktop({ to}) {
           </div>
           <div className="flex gap-1 items-center w-full  ">
             <p>English</p>
-            {/* <div className="w-[20%] ">
-              <Image alt="icon" className="w-full " src={language} />
-            </div> */}
             <div className=" text-[1.1rem]">
             <TfiWorld />
             </div>
@@ -108,35 +106,31 @@ export default function HeaderDesktop({ to}) {
         <div className=" flex justify-between items-center gap-4 md:gap-6 lg:gap-10 ">
           <NavLink
             to="/"
-            className="border-none hover:text-OtherGreen pb-1"
-          >
-            <p className=" leading-[200%] ">Home</p>
-            {/* {t('app_title')} */}
-          </NavLink>
-          {/* <NavLink
-            to="/"
             className={
               currentRoute === "/"
                 ? "border-b-[3px] border-Secondary border-solid pb-1 hover:text-OtherGreen"
                 : " border-none hover:text-OtherGreen pb-1"
             }
           >
-            Home
-          </NavLink> */}
+            <p className=" leading-[200%] ">Home</p>
+          </NavLink>
           <NavLink
             to="/about"
-            className="border-none hover:text-OtherGreen pb-1"
+            className={
+              currentRoute === "/about"
+                ? "border-b-[3px] border-Secondary border-solid pb-1 hover:text-OtherGreen"
+                : " border-none hover:text-OtherGreen pb-1"
+            }
           >
             <p className=" leading-[200%] ">About us</p>
           </NavLink>
 
           <div
-          className="border-none hover:text-OtherGreen pb-1"
-            // className={
-            //   isProductsRoute
-            //     ? "border-b-[3px] border-Secondary border-solid pb-1 hover:text-OtherGreen"
-            //     : " border-none hover:text-OtherGreen pb-1"
-            // }
+            className={
+              isProductsRoute
+                ? "border-b-[3px] border-Secondary border-solid pb-1 hover:text-OtherGreen"
+                : " border-none hover:text-OtherGreen pb-1"
+            }
           >
             <Dropdown
               options={options}
@@ -157,20 +151,32 @@ export default function HeaderDesktop({ to}) {
         <div className=" flex justify-between items-center gap-4 md:gap-6 lg:gap-10 ">
           <NavLink
             to="/news"
-            className="border-none hover:text-OtherGreen pb-1"
+            className={
+              currentRoute === "/news"
+                ? "border-b-[3px] border-Secondary border-solid pb-1 hover:text-OtherGreen"
+                : " border-none hover:text-OtherGreen pb-1"
+            }
           >
             <p className=" leading-[200%] ">News and Insights</p>
           </NavLink>
           <NavLink
             to="/sustainability"
-            className="border-none hover:text-OtherGreen pb-1"
+            className={
+              currentRoute === "/sustainability"
+                ? "border-b-[3px] border-Secondary border-solid pb-1 hover:text-OtherGreen"
+                : " border-none hover:text-OtherGreen pb-1"
+            }
           >
             {/* {currentRoute} */}
             <p className=" leading-[200%] ">Sustainability</p>
           </NavLink>
           <NavLink
             to="/contact"
-            className="border-none hover:text-OtherGreen pb-1"
+            className={
+              currentRoute === "/contact"
+                ? "border-b-[3px] border-Secondary border-solid pb-1 hover:text-OtherGreen"
+                : " border-none hover:text-OtherGreen pb-1"
+            }
           >
             <p className=" leading-[200%] ">Contact Us</p>
           </NavLink>

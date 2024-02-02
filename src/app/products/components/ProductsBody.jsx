@@ -38,16 +38,16 @@ export default function ProductsBody() {
         <div className=" flex justify-between pt-6 lg:pt-8 text-OtherBlack text-[0.7rem] ssm:text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.3rem] font-semibold leading-[145%] ">
           <div>
             <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              <span><AnimatedCounter start={0} end={20} duration={3} /></span>
+              <span><AnimatedCounter start={0} end={22} duration={2} /></span>
             </h3>
             <p className=" text-center">Nationwide Depots</p>
           </div>
           <div className=" border-OtherBlack border-r-[3px] border-solid  " />
           <div>
             <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              <span><AnimatedCounter start={0} end={10} duration={2} /></span>
+              <span><AnimatedCounter start={0} end={100} duration={3} /></span>
             </h3>
-            <p className=" text-center">Tankers</p>
+            <p className=" text-center">Truck Fleet</p>
           </div>
           <div className=" border-OtherBlack border-r-[3px] border-solid " />
           <div>
