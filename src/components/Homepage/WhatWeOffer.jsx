@@ -12,6 +12,7 @@ import "swiper/css/effect-fade";
 // import required modules
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import GreenLine from "../GreenLine/GreenLine";
+import GasCylinder from "../BusinessOffer/GasCylinder";
 
 export default function WhatWeOffer() {
   const [activeTab, setActiveTab] = useState("Automotive"); // Set the default active tab
@@ -121,6 +122,16 @@ export default function WhatWeOffer() {
           >
             Lubricant
           </h3>
+          <h3
+            onClick={() => handleTabDesktopClick("VMI")}
+            className={`border-t-[4px] border-solid  cursor-pointer pt-4 ${
+              activeTab === "VMI"
+                ? "border-OtherGreen"
+                : "border-transparent"
+            } `}
+          >
+            Vendor Managed Inventory
+          </h3>
         </div>
 
         <div>
@@ -172,6 +183,15 @@ export default function WhatWeOffer() {
               link="/products/lubricants"
             />
           )}
+          {activeTab === "VMI" && (
+            <BusinessOffer
+              title=" Vendor Managed Inventory "
+              text="Our premium lubricants, meticulously crafted through advanced refining processes, are tailored to meet rigorous industry standards and guarantee optimal protection for your machinery. Trust in our quality assurance, as our products comply with the highest specifications."
+              background="lubricants"
+              ButtonText="Explore More"
+              link="/products/lubricants"
+            />
+          )}
         </div>
       </section>
 
@@ -213,6 +233,10 @@ export default function WhatWeOffer() {
             ))}
           </Swiper>
         </div>
+      </section>
+
+      <section>
+        <GasCylinder title="Gas cylinder refill made easier and faster" background="gas" />
       </section>
     </div>
   );
