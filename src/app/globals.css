@@ -100,6 +100,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.vmi {
+  background-image: url("../components/Homepage/assets/vmi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.commercial {
+  background-image: url("../components/Homepage/assets/commercial.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.order {
+  background-image: url("../components/Homepage/assets/order.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* .what-we-offer {
   background-image: url("../components/Homepage/assets/Home4.png");
   background-position: center;
@@ -255,6 +273,20 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.list {
+  position: relative;
+}
+
+.list::before {
+  content: "";
+  position: absolute;
+  top: 0.5em; /* Adjust as needed */
+  left: -1.25em; /* Adjust as needed */
+  width: 0.3rem; /* Adjust as needed */
+  height: 0.3rem; /* Adjust as needed */
+  background-color: currentColor;
+  border-radius: 50%;
 }
 .automotive {
   background-image: url("../components/Homepage/assets/automotive.jpg");

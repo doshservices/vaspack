@@ -11,6 +11,9 @@ import Kerosene from "./app/products/kerosene/page";
 import Lubricants from "./app/products/lubricants/page";
 import Liquefied from "./app/products/liquefied/page";
 import Petrol from "./app/products/petrol/page";
+import VMI from "./app/products/vmi/page";
+import Commercial from "./app/commercial/page";
+import Order from "./app/Order/page";
 
 function App() {
   return (
@@ -24,9 +27,12 @@ function App() {
           <Route path="/products/petrol" element={<Petrol />} />
           <Route path="/products/kerosene" element={<Kerosene />} />
           <Route path="/products/lubricants" element={<Lubricants />} />
+          <Route path="/products/vmi" element={<VMI />} />
           <Route path="/news" element={<News />} />
           <Route path="/sustainability" element={<Sustainability />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/commercial" element={<Commercial />} />
+          <Route path="/order" element={<Order />} />
 
           {/* <Route path="/redirect" element={ <Navigate to="/admin-homepage" /> }/> */}
         </Routes>

@@ -54,7 +54,7 @@ export default function Footer() {
               <Link to="/sustainability" className=" hover:text-OtherGreen">Sustainability</Link>
             </li>
             <li>
-              <Link to="/" className=" hover:text-OtherGreen">Commercial Terms</Link>
+              <Link to="/commercial" className=" hover:text-OtherGreen">Commercial Terms</Link>
             </li>
           </ul>
         </div>

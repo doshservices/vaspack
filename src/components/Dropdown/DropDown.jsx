@@ -87,6 +87,14 @@ const Dropdown = () => {
             >
               <p>Lubricants</p>
             </NavLink>
+            <NavLink
+              to="/products/vmi"
+              onClick={() => handleOptionClick("Lubricants")}
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
+              role="menuitem"
+            >
+              <p>VMI</p>
+            </NavLink>
           </div>
         </div>
       )}

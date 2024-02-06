@@ -61,6 +61,14 @@ export default function WhatWeOffer() {
       link: "products/lubricants",
       cardText: "Our premium lubricants, meticulously crafted through advanced refining processes, are tailored to meet rigorous industry standards and guarantee optimal protection for your machinery. Trust in our quality assurance, as our products comply with the highest specifications. "
     },
+    {
+      key: 6,
+      background: "lubricants",
+      title: "Vendor Managed Inventory ",
+      cardTitle: "Vendor Managed Inventory ",
+      link: "products/vmi",
+      cardText: "Our premium lubricants, meticulously crafted through advanced refining processes, are tailored to meet rigorous industry standards and guarantee optimal protection for your machinery. Trust in our quality assurance, as our products comply with the highest specifications. "
+    },
   ];
   return (
     <div className="mb-4 ssm:mb-7 sm:mb-12 md:mb-6 xl:mb-7 px-[5%] ">
@@ -189,7 +197,7 @@ export default function WhatWeOffer() {
               text="Our premium lubricants, meticulously crafted through advanced refining processes, are tailored to meet rigorous industry standards and guarantee optimal protection for your machinery. Trust in our quality assurance, as our products comply with the highest specifications."
               background="lubricants"
               ButtonText="Explore More"
-              link="/products/lubricants"
+              link="/products/vmi"
             />
           )}
         </div>
@@ -236,7 +244,7 @@ export default function WhatWeOffer() {
       </section>
 
       <section>
-        <GasCylinder title="Gas cylinder refill made easier and faster" background="gas" />
+        <GasCylinder title="Gas cylinder refill made easier and faster" background="gas" link="/order" />
       </section>
     </div>
   );
