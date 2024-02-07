@@ -24,7 +24,7 @@ export default function GasCylinder({
           Vaspack LPG Service is right here for you.
           </p>
           <p className=" leading-[170%] ssm:leading-[190%] sm:leading-[214%] ">
-          Call us on: <span className=" font-normal text-[0.9rem] italic ">+234 8074493200</span> or send us a message on WhatsApp.
+          Call us on: <span className=" font-normal text-[0.9rem] italic ">0909 575 0443 </span> or send us a message on WhatsApp.
           </p>
         </div>
         <div className=" flex gap-0 sm:gap-2 justify-center  sm:justify-start text-[1.1rem] items-start sm:items-center">

@@ -106,6 +106,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.vmiComponent {
+  background-image: url("../components/Homepage/assets/vmiComponent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .commercial {
   background-image: url("../components/Homepage/assets/commercial.png");
   background-position: center;

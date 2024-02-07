@@ -63,11 +63,11 @@ export default function WhatWeOffer() {
     },
     {
       key: 6,
-      background: "lubricants",
+      background: "vmiComponent",
       title: "Vendor Managed Inventory ",
       cardTitle: "Vendor Managed Inventory ",
       link: "products/vmi",
-      cardText: "Our premium lubricants, meticulously crafted through advanced refining processes, are tailored to meet rigorous industry standards and guarantee optimal protection for your machinery. Trust in our quality assurance, as our products comply with the highest specifications. "
+      cardText: "At the core of our VMI strategy lies a collaborative partnership with trusted suppliers and with the responsibility of inventory management, we streamline procurement processes and optimize resource allocation. "
     },
   ];
   return (
@@ -194,8 +194,8 @@ export default function WhatWeOffer() {
           {activeTab === "VMI" && (
             <BusinessOffer
               title=" Vendor Managed Inventory "
-              text="Our premium lubricants, meticulously crafted through advanced refining processes, are tailored to meet rigorous industry standards and guarantee optimal protection for your machinery. Trust in our quality assurance, as our products comply with the highest specifications."
-              background="lubricants"
+              text="At the core of our VMI strategy lies a collaborative partnership with trusted suppliers and with the responsibility of inventory management, we streamline procurement processes and optimize resource allocation."
+              background="vmiComponent"
               ButtonText="Explore More"
               link="/products/vmi"
             />

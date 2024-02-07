@@ -4,7 +4,7 @@ import { PiPlusBold, PiMinusBold } from "react-icons/pi";
 import AnimatedCounter from "../../../components/AnimatedCounter/AnimatedCounter";
 import GreenLine from "../../../components/GreenLine/GreenLine";
 
-export default function ProductsBody() {
+export default function ProductsBody({title}) {
   const [activeTab, setActiveTab] = useState("Agriculture"); // Set the default active tab
   const handleTabDesktopClick = (tab) => {
     setActiveTab(tab);
@@ -24,7 +24,7 @@ export default function ProductsBody() {
         <section>
           <div className=" ">
            
-            <GreenLine text="Automotive Gas Oil - Diesel" />
+            <GreenLine text={title} />
           </div>
           <p className=" text-[0.9rem] mt-2 sm:mt-2 font-medium tracking-[0.14px] leading-[214%] text-justify ">
             Vaspack Energy Limited is an indigenous downstream company in the
