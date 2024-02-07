@@ -17,7 +17,7 @@ body {
 
 .mySwiper{
   background: transparent;
-  padding-bottom: 7vh;
+  /* padding-bottom: 7vh; */
   position: relative !important;
 }
 .swiper-pagination {
