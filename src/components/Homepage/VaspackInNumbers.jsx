@@ -31,12 +31,12 @@ export default function VaspackInNumbers() {
         </div>
       </section>
 
-      <section className=" mt-7 sm:mt-0 flex flex-col sm:flex-row justify-center sm:justify-between text-[0.9rem] sm:text-[0.8rem] md:text-[0.9rem] lg:text-[1.1rem] w-full sm:w-[68%] md:w-[65%] xl:w-[67%] border-solid border-[1px] border-OtherWhite ">
+      <section className=" mt-7 sm:mt-0 flex flex-col sm:flex-row justify-center sm:justify-between text-[0.9rem] ssm:text-[0.9rem] sm:text-[0.8rem] md:text-[0.9rem] lg:text-[1.1rem] w-full sm:w-[68%] md:w-[65%] xl:w-[67%] border-solid border-[1px] border-OtherWhite ">
         <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-5 justify-center items-center">
           <div>
             <img src={experience} className=" w-full" alt="Experience Icon" />
           </div>
-          <h3 className="flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
+          <h3 className="flex text-[1.5rem] ssm:text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
             <span>
               <AnimatedCounter start={0} end={15} duration={2} />
             </span>
@@ -48,7 +48,7 @@ export default function VaspackInNumbers() {
           <div>
             <img src={truck} className=" w-full" alt="Experience Icon" />
           </div>
-          <h3 className=" flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
+          <h3 className=" flex text-[1.5rem] ssm:text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
             
             <span>
               <AnimatedCounter start={0} end={100} duration={3} />
@@ -67,7 +67,7 @@ export default function VaspackInNumbers() {
           <div>
             <img src={storage} className=" w-full" alt="Experience Icon" />
           </div>
-          <h3 className="flex text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
+          <h3 className="flex text-[1.5rem] ssm:text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
             <span>
               <AnimatedCounter start={1000} end={3048} duration={3} />
             </span>

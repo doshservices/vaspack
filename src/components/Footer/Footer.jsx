@@ -122,7 +122,7 @@ export default function Footer() {
         </div> */}
 
         {/* mobile */}
-        <p className=" text-center  block sm:hidden">© Copyright {currentYear} Vaspack Energy Limited. All rights reserved.</p>
+        <p className=" text-center pt-4 sm:pt-0  block sm:hidden">© Copyright {currentYear} Vaspack Energy Limited. All rights reserved.</p>
 
       </section>
     </footer>
