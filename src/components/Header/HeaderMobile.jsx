@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
-import sms from "../../assets/Icons/sms.png";
-import careers from "../../assets/Icons/careers.png";
-import call from "../../assets/Icons/call.png";
-import language from "../../assets/Icons/language.png";
+import React, { useState } from "react";
+// import sms from "../../assets/Icons/sms.png";
+// import careers from "../../assets/Icons/careers.png";
+// import call from "../../assets/Icons/call.png";
+// import language from "../../assets/Icons/language.png";
 import logo from "../../assets/Logo/vasplogo1.svg";
 import Dropdown from "../Dropdown/DropDown";
-import DropdownOther from "../Dropdown/DropDown";
-import { GoArrowUpRight } from "react-icons/go";
-import { TfiImage, TfiWorld } from "react-icons/tfi";
-import TextTransition, { presets } from "react-text-transition";
+// import DropdownOther from "../Dropdown/DropDown";
+// import { GoArrowUpRight } from "react-icons/go";
+// import { TfiImage, TfiWorld } from "react-icons/tfi";
+// import TextTransition, { presets } from "react-text-transition";
 import { Link } from "react-router-dom";
 
 const HeaderMobile = ({ options, selectedValue, onSelect }) => {
@@ -25,30 +25,30 @@ const HeaderMobile = ({ options, selectedValue, onSelect }) => {
     router.push(link);
   };
 
-  const TEXTS = ['AGO $4.56/Gal ', 'PMS-$2.86/Gal', 'JET-$83.7/BBL'];
+  // const TEXTS = ['AGO $4.56/Gal ', 'PMS-$2.86/Gal', 'JET-$83.7/BBL'];
 
-  const [index, setIndex] = useState(0);
+  // const [index, setIndex] = useState(0);
 
-  useEffect(() => {
-    const intervalId = setInterval(
-      () => setIndex((index) => index + 1),
-      5000, // every 5 seconds
-    );
-    return () => clearTimeout(intervalId);
-  }, []);
+  // useEffect(() => {
+  //   const intervalId = setInterval(
+  //     () => setIndex((index) => index + 1),
+  //     5000, // every 5 seconds
+  //   );
+  //   return () => clearTimeout(intervalId);
+  // }, []);
 
   return (
     <div className="relative md:hidden">
       {/* Mobile Header */}
-      <header className="fixed z-10 w-full top-0 bg-Gray text-OtherBlack  text-[0.75rem] font-semibold h-[10vh] px-[5%] flex justify-between items-center">
+      <header className="fixed z-10 w-full top-0 bg-Gray text-OtherBlack  text-[0.75rem] font-semibold h-[8vh] px-[5%] flex justify-between items-center">
         <div className="flex w-full justify-between items-center">
           <Link to="/" className=" w-[30%]">
             <img src={logo} alt="Vaspack Logo" className="w-full" />
           </Link>
           <section className=" flex items-center gap-2">
-            <div className=" text-[0.8rem] flex items-center ">
+            {/* <div className=" text-[0.8rem] flex items-center ">
             <TextTransition springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
-            </div>
+            </div> */}
             <button onClick={toggleMenu} className="">
               {isOpen ? (
                 <svg
@@ -86,7 +86,7 @@ const HeaderMobile = ({ options, selectedValue, onSelect }) => {
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className="fixed inset-0 pt-4 px-[5%] w-full top-[10vh] bg-NormalWhite text-OtherBlack h-[100vh]  z-50">
+        <div className="fixed inset-0 pt-4 px-[5%] w-full top-[8vh] bg-NormalWhite text-OtherBlack h-[92vh]  z-50">
           <section className=" flex flex-col justify-between">
             <section>
               <section className=" flex  px-[5%] justify-between text-[0.85rem] ssm:text-[0.9rem] border-solid border-[2px] border-Primary  items-center">

@@ -1,17 +1,17 @@
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 // import { FaBeer } from 'react-icons/fa';
-import sms from "../../assets/Icons/sms.png";
-import careers from "../../assets/Icons/careers.png";
-import call from "../../assets/Icons/call.png";
-import language from "../../assets/Icons/language.png";
+// import sms from "../../assets/Icons/sms.png";
+// import careers from "../../assets/Icons/careers.png";
+// import call from "../../assets/Icons/call.png";
+// import language from "../../assets/Icons/language.png";
 import logo from "../../assets/Logo/vasplogo1.svg";
 import Dropdown from "../Dropdown/DropDown";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { GoArrowUpRight } from "react-icons/go";
 import { TfiWorld } from "react-icons/tfi";
-import TextTransition, { presets } from "react-text-transition";
+// import TextTransition, { presets } from "react-text-transition";
 import { NavLink, useLocation } from "react-router-dom";
 // import { useTranslation } from "next-i18next";/
 // import { useRouter } from "next/router";
@@ -51,17 +51,17 @@ export default function HeaderDesktop({ to}) {
     '/products/lubricants',
   ].includes(currentRoute);
   
-  const TEXTS = ['AGO $33.79/Gal ', 'PMS $2.86/Gal', 'JET $83.7/BBL'];
+  // const TEXTS = ['AGO $33.79/Gal ', 'PMS $2.86/Gal', 'JET $83.7/BBL'];
 
-  const [index, setIndex] = useState(0);
+  // const [index, setIndex] = useState(0);
 
-  useEffect(() => {
-    const intervalId = setInterval(
-      () => setIndex((index) => index + 1),
-      5000, // every 5 seconds
-    );
-    return () => clearTimeout(intervalId);
-  }, []);
+  // useEffect(() => {
+  //   const intervalId = setInterval(
+  //     () => setIndex((index) => index + 1),
+  //     5000, // every 5 seconds
+  //   );
+  //   return () => clearTimeout(intervalId);
+  // }, []);
 
   return (
     <header className=" fixed z-10 w-full top-0">
@@ -81,18 +81,17 @@ export default function HeaderDesktop({ to}) {
           </div>
         </div>
 
-        <div className=" flex w-[43%] md:w-[38%] lg:w-[32%] xl:w-[30%] items-center justify-end gap-2  ">
+        <div className=" flex gap-8 items-center justify-between  ">
           <div className="flex gap-1 items-center w-full  ">
             <p>Careers</p>
             <div className=" text-[1.1rem]">
             <GoArrowUpRight />
             </div>
           </div>
-          <div className="w-full ">
-            {/* <p>VSP $33.79</p> */}
+          {/* <div className="w-full ">
             <TextTransition springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
            
-          </div>
+          </div> */}
           <div className="flex gap-1 items-center w-full  ">
             <p>English</p>
             <div className=" text-[1.1rem]">

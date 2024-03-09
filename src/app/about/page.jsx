@@ -6,6 +6,7 @@ import WhatDrivesUs from './components/WhatDrivesUs'
 import AboutVaspack2 from './components/AboutVaspack2'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import OurClients from './components/OurClients'
 
 export default function About() {
   return (
@@ -15,7 +16,9 @@ export default function About() {
       {/* <AboutVaspack /> */}
       <AboutVaspack2 />
       <OurBusiness />
+      <OurClients />
       <WhatDrivesUs />
+      
       <Footer />
     </div>
   )
