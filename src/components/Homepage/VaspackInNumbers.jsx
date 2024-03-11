@@ -10,7 +10,7 @@ export default function VaspackInNumbers() {
     <div className=" bg-[#0A8E26] flex flex-col sm:flex-row justify-between mx-[5%] text-OtherWhite px-[5%] sm:px-[2%] md:px-[3%] py-6 md:py-8 lg:py-7 my-6 xl:my-7">
       <section className=" sm:w-[30%] w-[100%] xl:w-[28%] flex flex-col justify-between  text-center sm:text-left ">
         <div className=" ">
-          <div className=""> 
+          <div className="">
             <hr className=" w-[30%] sm:w-[50%] mx-auto sm:mx-0 border-solid border-[2px] border-OtherWhite " />
             <h2 className=" uppercase text-[1.2rem] sm:text-[0.9rem] md:text-[1.1rem]  lg:text-[1.2rem] xl:text-[1.4rem] mt-2 md:mt-3 font-semibold tracking-[0.199px] leading-[187%] ">
               VASPACK IN NUMBERS
@@ -49,15 +49,12 @@ export default function VaspackInNumbers() {
             <img src={truck} className=" w-full" alt="Experience Icon" />
           </div>
           <h3 className=" flex text-[1.5rem] ssm:text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
-            
             <span>
               <AnimatedCounter start={0} end={100} duration={3} />
             </span>
           </h3>
           <div className=" text-center">
-            <p className=" leading-[20%] font-medium ">
-              Truck Fleet
-            </p>
+            <p className=" leading-[20%] font-medium ">Truck Fleet</p>
             <small className=" text-[0.7rem] sm:text-[0.55rem] md:text-[0.6rem] lg:text-[0.7rem] leading-[20%] mt-[0.3rem] font-medium ">
               (Including specialized trucks)
             </small>
@@ -67,11 +64,16 @@ export default function VaspackInNumbers() {
           <div>
             <img src={storage} className=" w-full" alt="Experience Icon" />
           </div>
-          <h3 className="flex text-[1.5rem] ssm:text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
+          <h3 className="flex items-end leading-none text-[1.5rem] ssm:text-[1.8rem] sm:text-[1.7rem] md:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem] font-medium ">
             <span>
               <AnimatedCounter start={1000} end={3048} duration={3} />
             </span>
-            <span>km</span>
+            <span>
+              km
+                <sup className="text-[0.8rem]  ssm:text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.3rem] xl:text-[1.5rem]">
+                  3
+                </sup>
+            </span>
             {/* <sup className=" text-[0.6rem] ">3</sup> */}
           </h3>
           <p className=" font-medium ">Storage Capacity</p>
@@ -79,7 +81,7 @@ export default function VaspackInNumbers() {
       </section>
 
       <section className=" mt-7 flex justify-center">
-      <div className=" block sm:hidden ">
+        <div className=" block sm:hidden ">
           <Link to="/about">
             <button className="  text-OtherWhite border-[1.5px] border-OtherWhite border-solid rounded-[4px] py-1 lg:py-2 px-4 lg:px-6 font-semibold text-[0.9rem]">
               About Us

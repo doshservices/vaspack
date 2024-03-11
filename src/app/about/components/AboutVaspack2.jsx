@@ -77,7 +77,12 @@ export default function AboutVaspack2() {
               <span>
                 <AnimatedCounter start={1000} end={3048} duration={5} />
               </span>
-              Km
+              <span>
+              km
+                <sup className="text-[0.8rem]  ssm:text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.3rem] xl:text-[1.5rem]">
+                  3
+                </sup>
+            </span>
             </h3>
             <p className=" font-medium ">Storage Capacity</p>
           </div>

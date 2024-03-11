@@ -52,7 +52,13 @@ export default function ProductsBody({title}) {
           <div className=" border-OtherBlack border-r-[3px] border-solid " />
           <div>
             <h3 className=" flex justify-center text-[1.5rem] ssm:text-[2.2rem] sm:text-[3rem] md:text-[3.8rem]  lg:text-[4.5rem] xl:text-[5rem] font-semibold text-Primary leading-[125%] ">
-              <span><AnimatedCounter start={1000} end={3048} duration={3} /></span>km
+              <span><AnimatedCounter start={1000} end={3048} duration={3} /></span>
+              <span>
+              km
+                <sup className="text-[1rem]  ssm:text-[1.5rem] sm:text-[2.3rem] md:text-[2.6rem] lg:text-[2.8rem] xl:text-[3rem]">
+                  3
+                </sup>
+            </span>
             </h3>
             <p className=" text-center">Storage Capacity</p>
           </div>
