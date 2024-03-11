@@ -21,7 +21,7 @@ export default function OurClients() {
           <GreenLine text=" OUR CLIENTS" />
         </div>
         <p className=" text-[0.9rem] mt-2 sm:mt-2 font-medium tracking-[0.14px] leading-[214%] text-justify ">
-          Yes, We are Trusted by Leading Brands. Here's Our Valued Clients
+          Yes, We are Trusted by Leading Brands. Here's Some of Our Valued Clients
           </p>
       </section>
 
