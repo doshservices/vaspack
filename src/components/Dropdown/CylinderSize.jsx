@@ -36,7 +36,7 @@ const CylinderSize = () => {
       </div>
 
       {isOpen && (
-        <div className="origin-top-right absolute right-0 w-full rounded-md shadow-lg bg-white text-OtherBlack ">
+        <div className="origin-top-right z-[3]  absolute right-0 w-full rounded-md shadow-lg bg-white text-OtherBlack ">
           <div
             className="py-1"
             role="menu"

@@ -6,13 +6,13 @@ import CylinderSize from "../../components/Dropdown/CylinderSize";
 import { FiMinus, FiPlus } from "react-icons/fi";
 
 export default function OrderBody() {
-  const [count, setCount] = useState(5);
+  const [count, setCount] = useState(1);
 
   const handleClick = (action) => {
     if (action === "add") {
-      setCount(count + 5);
-    } else if (action === "subtract" && count > 5) {
-      setCount(count - 5);
+      setCount(count + 1);
+    } else if (action === "subtract" && count > 1) {
+      setCount(count - 1);
     }
   };
   return (
@@ -64,7 +64,7 @@ export default function OrderBody() {
           <div className=" mt-5 gap-4 sm:gap-0 flex flex-col sm:flex-row justify-between">
             <CylinderSize />
             <section className="w-[100%] relative sm:w-[48%] py-2 px-[1.5%] text-[0.9rem] sm:text-base placeholder:text-OtherBlack leading-[212.5%] outline-none border-solid border-[1px] border-OtherBlack ">
-              Quantity
+            Cylinder Quantity
               <div className=" flex items-center gap-2 text-[1.1rem] border py-1 px-3 absolute right-[3%] top-[50%] translate-y-[-50%] ">
                 <div
                   className=" cursor-pointer  hover:text-Primary"
