@@ -3,6 +3,8 @@ import { useForm } from "react-hook-form";
 import axios from "axios";
 import DropdownAll from "../../../components/Dropdown/DropdownAll";
 import { ThreeDots } from "react-loader-spinner";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
@@ -62,6 +64,11 @@ export default function ContactForm() {
   };
 
   const handleApiSubmit = async () => {
+    if (selectedEnquiryValue === null || selectedServiceValue === null) {
+      // Show error message using react-toastify
+      toast.error("Please select values for both dropdown fields.");
+      return; // Exit the function early if either dropdown field is null
+    }
     setLoading(true);
     const { fromName, from, text } = getValues(); // Getting form values
     const to = "mmadujonathan@gmail.com"; // Updated with your 'to' value
@@ -86,28 +93,38 @@ export default function ContactForm() {
       selectedServiceValue,
     };
     console.log("Data: ", data);
+
     const url =
       "https://seacraft-mailer-8zqrk.ondigitalocean.app/api/send-mail";
 
-    // try {
-    //   const response = await axios.post(url, { ...data, text: messageText }, {
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //   });
-    //   // console.log(response)
-    //   const user = response.data.message;
-    //   console.log("user: ", user);
-    //   reset();
-    //   setLoading(false);
-    // } catch (error) {
-    //   console.log(error);
-    //   setLoading(false);
-    // }
+    try {
+      const response = await axios.post(
+        url,
+        { ...data, text: messageText },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+      // console.log(response)
+      toast.success("Form submitted successfully!");
+      const user = response.data.message;
+      console.log("user: ", user);
+      reset();
+      setLoading(false);
+      setSelectedEnquiryValue(null);
+      setSelectedServiceValue(null);
+    } catch (error) {
+      console.log(error);
+      setLoading(false);
+      toast.error("Error submitting form. Please try again later.");
+    }
   };
 
   return (
     <div className=" px-[5%] lg:px-[5%] my-6 xl:my-7 ">
+      <ToastContainer />
       <section className=" h-[240px] sm:h-[450px]">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.55082311516!2d3.4376762735036945!3d6.451662623997082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4e82fbe9423%3A0xa9c16549d43d88ca!2s49%20Glover%20Rd%2C%20Ikoyi%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1704725613214!5m2!1sen!2sng"
@@ -164,6 +181,9 @@ export default function ContactForm() {
               selectedValue={selectedServiceValue}
               choose="Service Type "
             />
+            {!selectedEnquiryValue && (
+              <small className="text-[red]">Please select an Service Type</small>
+            )}
           </section>
           <section className=" w-full sm:w-[48%] ">
             <DropdownAll
@@ -172,6 +192,9 @@ export default function ContactForm() {
               selectedValue={selectedEnquiryValue}
               choose="Enquiry Type "
             />
+            {!selectedEnquiryValue && (
+              <small className="text-[red]">Please select an Enquiry Type</small>
+            )}
           </section>
         </div>
 
