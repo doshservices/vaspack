@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+
 // import GreenLine from "../../../components/GreenLine/GreenLine";
 import experience from "../assets/experience.svg";
 import truck from "../assets/truck.svg";

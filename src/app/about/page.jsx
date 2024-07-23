@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import AboutHero from './components/AboutHero'
 // import AboutVaspack from './components/AboutVaspack'
 import OurBusiness from './components/OurBusiness'
@@ -7,6 +7,7 @@ import AboutVaspack2 from './components/AboutVaspack2'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import OurClients from './components/OurClients'
+// import AboutVaspack from './components/AboutVaspack'
 
 export default function About() {
   return (

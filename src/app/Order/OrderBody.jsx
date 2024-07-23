@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import GreenLine from "../../components/GreenLine/GreenLine";
 import { Link } from "react-router-dom";
-import DeliveryType from "../../components/Dropdown/DeliveryType";
-import CylinderSize from "../../components/Dropdown/CylinderSize";
 import { FiMinus, FiPlus } from "react-icons/fi";
+import DropdownAll from "../../components/Dropdown/DropdownAll";
+import { useForm } from "react-hook-form";
 
 export default function OrderBody() {
+  const [selectedDeliveryValue, setSelectedDeliveryValue] = useState(null);
+  const [selectedCylinderSize, setSelectedCylinderSize] = useState(null); 
   const [count, setCount] = useState(1);
 
   const handleClick = (action) => {
@@ -15,6 +17,59 @@ export default function OrderBody() {
       setCount(count - 1);
     }
   };
+
+  const {
+    register,
+    // control,
+    handleSubmit,
+    // formState: { errors },
+    // getValues,
+    setValue,
+    // reset,
+  } = useForm({
+    mode: "onBlur",
+  });
+  const handleError = (errors) => {};
+
+  const handleDeliverySelect = (value) => {
+    setSelectedDeliveryValue(value);
+    setValue("Delivery", value);
+  };
+  const handleCylinderSize = (value) => {
+    setSelectedCylinderSize(value);
+    setValue("Delivery", value);
+  };
+
+  const registerOptions = {
+    to: {
+      value: "mmadujonathan@gmail.com",
+    },
+    toName: {
+      value: "Vaspack Energy",
+    },
+    fullName: {
+      required: "Full Name is required",
+      minLength: {
+        value: 3,
+        message: "Full Name must have at least 3 characters",
+      },
+    },
+    number: {
+      required: "Phone Number is required",
+      minLength: {
+        value: 11,
+        message: "Phone Number must have at least 11 characters",
+      },
+    },
+    // text: {
+    //   required: "Message is required",
+    //   minLength: {
+    //     value: 3,
+    //     message: "Message must have at least 3 characters",
+    //   },
+    // },
+  };
+
   return (
     <div className=" my-7 mx-[5%] ">
       <section>
@@ -38,32 +93,60 @@ export default function OrderBody() {
       </section>
 
       <section>
-        <form action="" className=" mt-7 ">
+        <form action="" onSubmit={handleSubmit(handleError)} className=" mt-7 ">
           <div className="gap-4 sm:gap-0 flex flex-col sm:flex-row justify-between">
+            <section className=" w-[100%] sm:w-[48%]">
             <input
               type="text"
-              className="w-[100%] sm:w-[48%] py-2 px-[1.5%] text-[0.9rem] sm:text-base placeholder:text-OtherBlack leading-[212.5%] outline-none border-solid border-[1px] border-OtherBlack "
+              className=" py-2 px-[1%] w-[100%] text-[0.9rem] sm:text-base placeholder:text-OtherBlack leading-[212.5%] outline-none border-solid border-[1px] border-OtherBlack "
               placeholder="Full Name"
+              {...register("fullName", registerOptions.fullName)}
             />
-            <input
+            </section>
+           <section className=" w-[100%] sm:w-[48%]">
+           <input
               type="number"
-              className="w-[100%] appearance-none sm:w-[48%] py-2 px-[1.5%] text-[0.9rem] sm:text-base placeholder:text-OtherBlack leading-[212.5%] outline-none border-solid border-[1px] border-OtherBlack "
+              className="w-[100%] appearance-none py-2 px-[1%] text-[0.9rem] sm:text-base placeholder:text-OtherBlack leading-[212.5%] outline-none border-solid border-[1px] border-OtherBlack "
               placeholder="Phone Number"
+              {...register("number", registerOptions.number)}
             />
+           </section>
           </div>
 
           <div className=" mt-5 gap-4 sm:gap-0 flex flex-col sm:flex-row justify-between">
             <input
               type="text"
-              className="w-[100%] sm:w-[48%] py-2 px-[1.5%] text-[0.9rem] sm:text-base placeholder:text-OtherBlack leading-[212.5%] outline-none border-solid border-[1px] border-OtherBlack "
+              className="w-[100%] sm:w-[48%] py-2 px-[1%] text-[0.9rem] sm:text-base placeholder:text-OtherBlack leading-[212.5%] outline-none border-solid border-[1px] border-OtherBlack "
               placeholder="Delivery Address"
             />
-            <DeliveryType />
+            <section className="w-[100%] sm:w-[48%]" >
+            <DropdownAll
+              options={[
+                "Fast Delivery",
+                "Dispatch",
+              ]}
+              onSelect={handleDeliverySelect}
+              selectedValue={selectedDeliveryValue}
+              choose="Delivery Type "
+            />
+            </section>
           </div>
 
           <div className=" mt-5 gap-4 sm:gap-0 flex flex-col sm:flex-row justify-between">
-            <CylinderSize />
-            <section className="w-[100%] relative sm:w-[48%] py-2 px-[1.5%] text-[0.9rem] sm:text-base placeholder:text-OtherBlack leading-[212.5%] outline-none border-solid border-[1px] border-OtherBlack ">
+          <section className="w-[100%] sm:w-[48%]" >
+            <DropdownAll
+              options={[
+                "5kg",
+                "10kg",
+                "50kg",
+                "100kg"
+              ]}
+              onSelect={handleCylinderSize}
+              selectedValue={selectedCylinderSize}
+              choose="Cylinder Size "
+            />
+            </section>
+            <section className="w-[100%] relative sm:w-[48%] py-2 px-[1%] text-[0.9rem] sm:text-base placeholder:text-OtherBlack leading-[212.5%] outline-none border-solid border-[1px] border-OtherBlack ">
             Cylinder Quantity
               <div className=" flex items-center gap-2 text-[1.1rem] border py-1 px-3 absolute right-[3%] top-[50%] translate-y-[-50%] ">
                 <div

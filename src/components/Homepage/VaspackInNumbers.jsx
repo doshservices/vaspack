@@ -1,9 +1,10 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import experience from "./assets/experience.svg";
 import truck from "./assets/truck.svg";
 import storage from "./assets/storage.svg";
 import AnimatedCounter from "../AnimatedCounter/AnimatedCounter";
 import { Link } from "react-router-dom";
+// import InNumber from './assets/InNumbers.jpg'
 
 export default function VaspackInNumbers() {
   return (
@@ -17,7 +18,7 @@ export default function VaspackInNumbers() {
             </h2>
           </div>
           <p className=" text-center sm:text-justify mt-2 xl:mt-2 text-[0.8rem] md:text-[0.8rem] sm:text-[0.8rem]  xl:text-[0.9rem] font-normal sm:font-medium tracking-[0.199px] leading-[150%] lg:leading-[180%] xl:leading-[180%] ">
-            A quick look into the Metrics Behind Vaspack Energy Limited's
+            A quick look into the Metrics Behind Vaspack Energy Limited' s
             Growth, Innovation, and Contribution to the Oil & Gas Sector.
           </p>
         </div>
@@ -30,6 +31,10 @@ export default function VaspackInNumbers() {
           </Link>
         </div>
       </section>
+
+      {/* <section className=" w-full sm:w-[68%] md:w-[65%] xl:w-[67%]">
+        <img src={InNumber} className=" w-full rounded-[8px]  " alt="InNumber Image" />
+      </section> */}
 
       <section className=" mt-7 sm:mt-0 flex flex-col sm:flex-row justify-center sm:justify-between text-[0.9rem] ssm:text-[0.9rem] sm:text-[0.8rem] md:text-[0.9rem] lg:text-[1.1rem] w-full sm:w-[68%] md:w-[65%] xl:w-[67%] border-solid border-[1px] border-OtherWhite ">
         <div className=" flex py-7 w-full sm:w-[33.3%] flex-col gap-5 justify-center items-center">
@@ -74,7 +79,7 @@ export default function VaspackInNumbers() {
                   3
                 </sup>
             </span>
-            {/* <sup className=" text-[0.6rem] ">3</sup> */}
+            <sup className=" text-[0.6rem] ">3</sup>
           </h3>
           <p className=" font-medium ">Storage Capacity</p>
         </div>

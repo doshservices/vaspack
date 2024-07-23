@@ -71,7 +71,7 @@ export default function ContactForm() {
     }
     setLoading(true);
     const { fromName, from, text } = getValues(); // Getting form values
-    const to = "mmadujonathan@gmail.com"; // Updated with your 'to' value
+    const to = "sales@vaspackenergy.com"; // Updated with your 'to' value
     const toName = "Vaspack Energy"; // Updated with your 'toName' value
 
     // Construct the text message including selectedEnquiryValue and selectedServiceValue
@@ -181,7 +181,7 @@ export default function ContactForm() {
               selectedValue={selectedServiceValue}
               choose="Service Type "
             />
-            {!selectedEnquiryValue && (
+            {!selectedServiceValue && (
               <small className="text-[red]">Please select an Service Type</small>
             )}
           </section>

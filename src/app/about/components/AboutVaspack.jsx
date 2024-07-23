@@ -1,9 +1,10 @@
-import React from "react";
+// import React from "react";
+import about from '../assets/about.jpg'
 
 export default function   AboutVaspack() {
   return (
-    <div className="px-[5%] lg:px-[7%] pt-5">
-      <h2 className=" text-OtherBlack text-[1.2rem] md:text-[1.4rem] lg:text-[1.6rem] xl:text-[1.8rem] font-medium leading-[166%] tracking-[0.199px] text-justify ">
+    <div className="px-[5%]  pt-5">
+      {/* <h2 className=" text-OtherBlack text-[1.2rem] md:text-[1.4rem] lg:text-[1.6rem] xl:text-[1.8rem] font-medium leading-[166%] tracking-[0.199px] text-justify ">
         Vaspack Energy Limited doesn't merely distribute fuel; we empower
         industries and communities with a seamless, technology-driven approach.
       </h2>
@@ -43,7 +44,9 @@ export default function   AboutVaspack() {
             <strong className="font-medium text-[1.1rem] sm:text-[0.9rem] md:text-[1.1rem] lg:text-[1.2rem]  xl:text-[1.3rem] justify-self-end ">3048 km3</strong>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <img src={about} className=" w-full" alt="About Image" />
     </div>
   );
 }

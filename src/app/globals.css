@@ -65,20 +65,23 @@ body {
   border-top: 1px solid rgba(45, 45, 45, 0.10); */
 }
 .home-hero {
-  background-image: url("../components/Homepage/assets/Home1.jpg");
-  background-position: center;
+  background: url("../components/Homepage/assets/Hero1.jpg");
+  background-blend-mode: overlay;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home-hero2 {
-  background-image: url("../components/Homepage/assets/Home2.jpg");
-  background-position: center;
+  background: url("../components/Homepage/assets/Hero2.jpg");
+  background-blend-mode: overlay;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home-hero3 {
-  background-image: url("../components/Homepage/assets/Home3.jpg");
-  background-position: center;
+  background: url("../components/Homepage/assets/Hero3.jpg");
+  background-blend-mode: overlay;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
