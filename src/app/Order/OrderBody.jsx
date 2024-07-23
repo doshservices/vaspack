@@ -29,7 +29,7 @@ export default function OrderBody() {
   } = useForm({
     mode: "onBlur",
   });
-  const handleError = (errors) => {};
+  const handleError = () => {};
 
   const handleDeliverySelect = (value) => {
     setSelectedDeliveryValue(value);

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import DropdownAll from "../../../components/Dropdown/DropdownAll";
@@ -13,7 +13,6 @@ export default function ContactForm() {
 
   const {
     register,
-    control,
     handleSubmit,
     formState: { errors },
     getValues,
@@ -22,7 +21,7 @@ export default function ContactForm() {
   } = useForm({
     mode: "onBlur",
   });
-  const handleError = (errors) => {};
+  const handleError = () => {};
 
   const handleEnquirySelect = (value) => {
     setSelectedEnquiryValue(value);
@@ -133,7 +132,7 @@ export default function ContactForm() {
           style={{ border: 0 }}
           allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          // referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
 

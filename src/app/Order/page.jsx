@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../../components/Header/Header'
 import SmallHero from '../../components/SmallHero/SmallHero'
 import Footer from '../../components/Footer/Footer'
